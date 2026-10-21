@@ -1,0 +1,11571 @@
+{
+ "n": 22,
+ "title": "Esplanade from the south",
+ "summary": "A ramp 60 m wide rising from the south to the plinth top. Esplanade from none to ramp from the south. Esplanade length from 120 m to 90 m.",
+ "prompt": "",
+ "author": "Maya",
+ "time": "2026-10-21T19:12:36-04:00",
+ "parents": [
+  19
+ ],
+ "level": "massing",
+ "levels": [
+  "massing",
+  "structure"
+ ],
+ "changes": {
+  "added": [
+   "ES-RAMP"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "numbers": {
+  "height": 12.0,
+  "floor_area": 0.0,
+  "footprint": 0.0,
+  "volumes": {
+   "concrete": 115142.96
+  },
+  "stats": {
+   "Seats, estimated at 0.5 m per seat": {
+    "value": 17288.0,
+    "unit": "n"
+   },
+   "Farthest viewing distance to a corner flag": {
+    "value": 143.6,
+    "unit": "m"
+   },
+   "Steepest rake, tier 1": {
+    "value": 21.9,
+    "unit": "deg"
+   }
+  }
+ },
+ "values": {
+  "pitch_l": 105.0,
+  "pitch_w": 68.0,
+  "runoff": 7.5,
+  "corner_r": 20.0,
+  "bay": 10.0,
+  "tread": 0.8,
+  "c_value": 0.09,
+  "c2": 0.09,
+  "c3": 0.09,
+  "first_h": 1.2,
+  "rows1": 20.0,
+  "rows2": 0.0,
+  "rows3": 0.0,
+  "gap2": 2.0,
+  "lift2": 6.0,
+  "gap3": 2.0,
+  "lift3": 6.0,
+  "env_a": 130.0,
+  "env_b": 115.0,
+  "env_p": 2.4,
+  "env_z0": 12.0,
+  "esp_on": 1.0,
+  "esp_w": 60.0,
+  "esp_l": 90.0,
+  "garages": 0.0,
+  "garage_levels": 4.0
+ },
+ "errors": {},
+ "warnings": [],
+ "build_error": null,
+ "picture": "picture.webp",
+ "inside": null,
+ "side": "se",
+ "elements": {
+  "TU1-R01-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -60.8,
+    -31.513,
+    -0.645,
+    -57.53,
+    -21.5,
+    -0.298
+   ],
+   "size": 2.7309
+  },
+  "TU1-R01-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -58.231,
+    -39.053,
+    -0.645,
+    -50.73,
+    -31.128,
+    -0.298
+   ],
+   "size": 2.7309
+  },
+  "TU1-R01-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -51.159,
+    -42.257,
+    -0.645,
+    -41.28,
+    -38.378,
+    -0.298
+   ],
+   "size": 2.7309
+  },
+  "TU1-R01-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.331,
+    -42.3,
+    -0.645,
+    -31.236,
+    -41.459,
+    -0.298
+   ],
+   "size": 2.7977
+  },
+  "TU1-R01-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -42.3,
+    -0.645,
+    -21.191,
+    -41.5,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -42.3,
+    -0.645,
+    -11.146,
+    -41.5,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -42.3,
+    -0.645,
+    -1.101,
+    -41.5,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -42.3,
+    -0.645,
+    8.944,
+    -41.5,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -42.3,
+    -0.645,
+    18.989,
+    -41.5,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -42.3,
+    -0.645,
+    29.034,
+    -41.5,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -42.3,
+    -0.645,
+    39.079,
+    -41.5,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -42.3,
+    -0.645,
+    49.163,
+    -39.455,
+    -0.298
+   ],
+   "size": 2.7421
+  },
+  "TU1-R01-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    48.81,
+    -40.173,
+    -0.645,
+    57.02,
+    -32.996,
+    -0.298
+   ],
+   "size": 2.7309
+  },
+  "TU1-R01-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    56.366,
+    -33.456,
+    -0.645,
+    60.674,
+    -23.698,
+    -0.298
+   ],
+   "size": 2.7309
+  },
+  "TU1-R01-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    59.879,
+    -23.786,
+    -0.645,
+    60.8,
+    -13.657,
+    -0.298
+   ],
+   "size": 2.7977
+  },
+  "TU1-R01-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    60.0,
+    -13.657,
+    -0.645,
+    60.8,
+    -3.612,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    60.0,
+    -3.612,
+    -0.645,
+    60.8,
+    6.433,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    60.0,
+    6.433,
+    -0.645,
+    60.8,
+    16.478,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    59.373,
+    16.478,
+    -0.645,
+    60.8,
+    26.669,
+    -0.298
+   ],
+   "size": 2.7844
+  },
+  "TU1-R01-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    54.588,
+    26.47,
+    -0.645,
+    60.148,
+    35.729,
+    -0.298
+   ],
+   "size": 2.7309
+  },
+  "TU1-R01-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    46.2,
+    35.182,
+    -0.645,
+    55.171,
+    41.275,
+    -0.298
+   ],
+   "size": 2.7309
+  },
+  "TU1-R01-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    40.515,
+    -0.645,
+    46.448,
+    42.3,
+    -0.298
+   ],
+   "size": 2.7733
+  },
+  "TU1-R01-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    41.5,
+    -0.645,
+    36.259,
+    42.3,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    41.5,
+    -0.645,
+    26.214,
+    42.3,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    41.5,
+    -0.645,
+    16.169,
+    42.3,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    41.5,
+    -0.645,
+    6.124,
+    42.3,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    41.5,
+    -0.645,
+    -3.921,
+    42.3,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    41.5,
+    -0.645,
+    -13.966,
+    42.3,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    41.5,
+    -0.645,
+    -24.011,
+    42.3,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -44.235,
+    41.081,
+    -0.645,
+    -34.056,
+    42.3,
+    -0.298
+   ],
+   "size": 2.7907
+  },
+  "TU1-R01-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -53.516,
+    36.702,
+    -0.645,
+    -44.072,
+    41.864,
+    -0.298
+   ],
+   "size": 2.7309
+  },
+  "TU1-R01-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -59.458,
+    28.569,
+    -0.645,
+    -52.996,
+    37.31,
+    -0.298
+   ],
+   "size": 2.7309
+  },
+  "TU1-R01-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -60.8,
+    18.68,
+    -0.645,
+    -58.709,
+    28.851,
+    -0.298
+   ],
+   "size": 2.7639
+  },
+  "TU1-R01-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -60.8,
+    8.635,
+    -0.645,
+    -60.0,
+    18.68,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -60.8,
+    -1.41,
+    -0.645,
+    -60.0,
+    8.635,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -60.8,
+    -11.455,
+    -0.645,
+    -60.0,
+    -1.41,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R01-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -60.8,
+    -21.5,
+    -0.645,
+    -60.0,
+    -11.455,
+    -0.298
+   ],
+   "size": 2.7933
+  },
+  "TU1-R02-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -61.6,
+    -31.898,
+    -0.435,
+    -58.231,
+    -21.5,
+    -0.079
+   ],
+   "size": 2.9088
+  },
+  "TU1-R02-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -58.932,
+    -39.728,
+    -0.435,
+    -51.159,
+    -31.513,
+    -0.079
+   ],
+   "size": 2.9088
+  },
+  "TU1-R02-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -51.589,
+    -43.056,
+    -0.435,
+    -41.331,
+    -39.053,
+    -0.079
+   ],
+   "size": 2.9088
+  },
+  "TU1-R02-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.383,
+    -43.1,
+    -0.435,
+    -31.236,
+    -42.257,
+    -0.079
+   ],
+   "size": 2.8821
+  },
+  "TU1-R02-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -43.1,
+    -0.435,
+    -21.191,
+    -42.3,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -43.1,
+    -0.435,
+    -11.146,
+    -42.3,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -43.1,
+    -0.435,
+    -1.101,
+    -42.3,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -43.1,
+    -0.435,
+    8.944,
+    -42.3,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -43.1,
+    -0.435,
+    18.989,
+    -42.3,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -43.1,
+    -0.435,
+    29.034,
+    -42.3,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -43.1,
+    -0.435,
+    39.079,
+    -42.3,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -43.1,
+    -0.435,
+    49.515,
+    -40.173,
+    -0.079
+   ],
+   "size": 2.911
+  },
+  "TU1-R02-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    49.163,
+    -40.891,
+    -0.435,
+    57.675,
+    -33.456,
+    -0.079
+   ],
+   "size": 2.9088
+  },
+  "TU1-R02-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    57.02,
+    -33.916,
+    -0.435,
+    61.469,
+    -23.786,
+    -0.079
+   ],
+   "size": 2.9088
+  },
+  "TU1-R02-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    60.674,
+    -23.874,
+    -0.435,
+    61.6,
+    -13.657,
+    -0.079
+   ],
+   "size": 2.8926
+  },
+  "TU1-R02-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    60.8,
+    -13.657,
+    -0.435,
+    61.6,
+    -3.612,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    60.8,
+    -3.612,
+    -0.435,
+    61.6,
+    6.433,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    60.8,
+    6.433,
+    -0.435,
+    61.6,
+    16.478,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    60.148,
+    16.478,
+    -0.435,
+    61.6,
+    26.867,
+    -0.079
+   ],
+   "size": 2.9106
+  },
+  "TU1-R02-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    55.171,
+    26.669,
+    -0.435,
+    60.922,
+    36.277,
+    -0.079
+   ],
+   "size": 2.9088
+  },
+  "TU1-R02-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    46.448,
+    35.729,
+    -0.435,
+    55.755,
+    42.036,
+    -0.079
+   ],
+   "size": 2.9088
+  },
+  "TU1-R02-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    41.275,
+    -0.435,
+    46.696,
+    43.1,
+    -0.079
+   ],
+   "size": 2.9132
+  },
+  "TU1-R02-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    42.3,
+    -0.435,
+    36.259,
+    43.1,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    42.3,
+    -0.435,
+    26.214,
+    43.1,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    42.3,
+    -0.435,
+    16.169,
+    43.1,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    42.3,
+    -0.435,
+    6.124,
+    43.1,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    42.3,
+    -0.435,
+    -3.921,
+    43.1,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    42.3,
+    -0.435,
+    -13.966,
+    43.1,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    42.3,
+    -0.435,
+    -24.011,
+    43.1,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -44.398,
+    41.864,
+    -0.435,
+    -34.056,
+    43.1,
+    -0.079
+   ],
+   "size": 2.9067
+  },
+  "TU1-R02-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -54.035,
+    37.31,
+    -0.435,
+    -44.235,
+    42.647,
+    -0.079
+   ],
+   "size": 2.9088
+  },
+  "TU1-R02-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -60.206,
+    28.851,
+    -0.435,
+    -53.516,
+    37.918,
+    -0.079
+   ],
+   "size": 2.9088
+  },
+  "TU1-R02-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -61.6,
+    18.68,
+    -0.435,
+    -59.458,
+    29.134,
+    -0.079
+   ],
+   "size": 2.9135
+  },
+  "TU1-R02-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -61.6,
+    8.635,
+    -0.435,
+    -60.8,
+    18.68,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -61.6,
+    -1.41,
+    -0.435,
+    -60.8,
+    8.635,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -61.6,
+    -11.455,
+    -0.435,
+    -60.8,
+    -1.41,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R02-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -61.6,
+    -21.5,
+    -0.435,
+    -60.8,
+    -11.455,
+    -0.079
+   ],
+   "size": 2.863
+  },
+  "TU1-R03-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -62.4,
+    -32.283,
+    -0.214,
+    -58.932,
+    -21.5,
+    0.15
+   ],
+   "size": 3.0856
+  },
+  "TU1-R03-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -59.634,
+    -40.403,
+    -0.214,
+    -51.589,
+    -31.898,
+    0.15
+   ],
+   "size": 3.0856
+  },
+  "TU1-R03-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -52.018,
+    -43.854,
+    -0.214,
+    -41.383,
+    -39.728,
+    0.15
+   ],
+   "size": 3.0856
+  },
+  "TU1-R03-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.434,
+    -43.9,
+    -0.214,
+    -31.236,
+    -43.056,
+    0.15
+   ],
+   "size": 2.961
+  },
+  "TU1-R03-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -43.9,
+    -0.214,
+    -21.191,
+    -43.1,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -43.9,
+    -0.214,
+    -11.146,
+    -43.1,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -43.9,
+    -0.214,
+    -1.101,
+    -43.1,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -43.9,
+    -0.214,
+    8.944,
+    -43.1,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -43.9,
+    -0.214,
+    18.989,
+    -43.1,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -43.9,
+    -0.214,
+    29.034,
+    -43.1,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -43.9,
+    -0.214,
+    39.079,
+    -43.1,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -43.9,
+    -0.214,
+    49.868,
+    -40.891,
+    0.15
+   ],
+   "size": 3.0783
+  },
+  "TU1-R03-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    49.515,
+    -41.609,
+    -0.214,
+    58.33,
+    -33.916,
+    0.15
+   ],
+   "size": 3.0856
+  },
+  "TU1-R03-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    57.675,
+    -34.376,
+    -0.214,
+    62.264,
+    -23.874,
+    0.15
+   ],
+   "size": 3.0856
+  },
+  "TU1-R03-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    61.469,
+    -23.962,
+    -0.214,
+    62.4,
+    -13.657,
+    0.15
+   ],
+   "size": 2.9824
+  },
+  "TU1-R03-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    61.6,
+    -13.657,
+    -0.214,
+    62.4,
+    -3.612,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    61.6,
+    -3.612,
+    -0.214,
+    62.4,
+    6.433,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    61.6,
+    6.433,
+    -0.214,
+    62.4,
+    16.478,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    60.922,
+    16.478,
+    -0.214,
+    62.4,
+    27.066,
+    0.15
+   ],
+   "size": 3.0331
+  },
+  "TU1-R03-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    55.755,
+    26.867,
+    -0.214,
+    61.697,
+    36.824,
+    0.15
+   ],
+   "size": 3.0856
+  },
+  "TU1-R03-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    46.696,
+    36.277,
+    -0.214,
+    56.338,
+    42.797,
+    0.15
+   ],
+   "size": 3.0856
+  },
+  "TU1-R03-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    42.036,
+    -0.214,
+    46.944,
+    43.9,
+    0.15
+   ],
+   "size": 3.0501
+  },
+  "TU1-R03-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    43.1,
+    -0.214,
+    36.259,
+    43.9,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    43.1,
+    -0.214,
+    26.214,
+    43.9,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    43.1,
+    -0.214,
+    16.169,
+    43.9,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    43.1,
+    -0.214,
+    6.124,
+    43.9,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    43.1,
+    -0.214,
+    -3.921,
+    43.9,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    43.1,
+    -0.214,
+    -13.966,
+    43.9,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    43.1,
+    -0.214,
+    -24.011,
+    43.9,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -44.561,
+    42.647,
+    -0.214,
+    -34.056,
+    43.9,
+    0.15
+   ],
+   "size": 3.0187
+  },
+  "TU1-R03-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -54.555,
+    37.918,
+    -0.214,
+    -44.398,
+    43.431,
+    0.15
+   ],
+   "size": 3.0856
+  },
+  "TU1-R03-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -60.954,
+    29.134,
+    -0.214,
+    -54.035,
+    38.527,
+    0.15
+   ],
+   "size": 3.0856
+  },
+  "TU1-R03-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -62.4,
+    18.68,
+    -0.214,
+    -60.206,
+    29.417,
+    0.15
+   ],
+   "size": 3.0605
+  },
+  "TU1-R03-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -62.4,
+    8.635,
+    -0.214,
+    -61.6,
+    18.68,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -62.4,
+    -1.41,
+    -0.214,
+    -61.6,
+    8.635,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -62.4,
+    -11.455,
+    -0.214,
+    -61.6,
+    -1.41,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R03-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -62.4,
+    -21.5,
+    -0.214,
+    -61.6,
+    -11.455,
+    0.15
+   ],
+   "size": 2.9266
+  },
+  "TU1-R04-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -63.2,
+    -32.668,
+    0.015,
+    -59.634,
+    -21.5,
+    0.387
+   ],
+   "size": 3.2617
+  },
+  "TU1-R04-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -60.335,
+    -41.078,
+    0.015,
+    -52.018,
+    -32.283,
+    0.387
+   ],
+   "size": 3.2617
+  },
+  "TU1-R04-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -52.447,
+    -44.652,
+    0.015,
+    -41.434,
+    -40.403,
+    0.387
+   ],
+   "size": 3.2617
+  },
+  "TU1-R04-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.485,
+    -44.7,
+    0.015,
+    -31.236,
+    -43.854,
+    0.387
+   ],
+   "size": 3.0354
+  },
+  "TU1-R04-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -44.7,
+    0.015,
+    -21.191,
+    -43.9,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -44.7,
+    0.015,
+    -11.146,
+    -43.9,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -44.7,
+    0.015,
+    -1.101,
+    -43.9,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -44.7,
+    0.015,
+    8.944,
+    -43.9,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -44.7,
+    0.015,
+    18.989,
+    -43.9,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -44.7,
+    0.015,
+    29.034,
+    -43.9,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -44.7,
+    0.015,
+    39.079,
+    -43.9,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -44.7,
+    0.015,
+    50.22,
+    -41.609,
+    0.387
+   ],
+   "size": 3.2445
+  },
+  "TU1-R04-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    49.868,
+    -42.328,
+    0.015,
+    58.984,
+    -34.376,
+    0.387
+   ],
+   "size": 3.2617
+  },
+  "TU1-R04-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    58.33,
+    -34.835,
+    0.015,
+    63.059,
+    -23.962,
+    0.387
+   ],
+   "size": 3.2617
+  },
+  "TU1-R04-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    62.264,
+    -24.05,
+    0.015,
+    63.2,
+    -13.657,
+    0.387
+   ],
+   "size": 3.0681
+  },
+  "TU1-R04-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    62.4,
+    -13.657,
+    0.015,
+    63.2,
+    -3.612,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    62.4,
+    -3.612,
+    0.015,
+    63.2,
+    6.433,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    62.4,
+    6.433,
+    0.015,
+    63.2,
+    16.478,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    61.697,
+    16.478,
+    0.015,
+    63.2,
+    27.265,
+    0.387
+   ],
+   "size": 3.1528
+  },
+  "TU1-R04-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    56.338,
+    27.066,
+    0.015,
+    62.472,
+    37.371,
+    0.387
+   ],
+   "size": 3.2617
+  },
+  "TU1-R04-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    46.944,
+    36.824,
+    0.015,
+    56.922,
+    43.557,
+    0.387
+   ],
+   "size": 3.2617
+  },
+  "TU1-R04-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    42.797,
+    0.015,
+    47.192,
+    44.7,
+    0.387
+   ],
+   "size": 3.1847
+  },
+  "TU1-R04-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    43.9,
+    0.015,
+    36.259,
+    44.7,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    43.9,
+    0.015,
+    26.214,
+    44.7,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    43.9,
+    0.015,
+    16.169,
+    44.7,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    43.9,
+    0.015,
+    6.124,
+    44.7,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    43.9,
+    0.015,
+    -3.921,
+    44.7,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    43.9,
+    0.015,
+    -13.966,
+    44.7,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    43.9,
+    0.015,
+    -24.011,
+    44.7,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -44.724,
+    43.431,
+    0.015,
+    -34.056,
+    44.7,
+    0.387
+   ],
+   "size": 3.1274
+  },
+  "TU1-R04-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -55.075,
+    38.527,
+    0.015,
+    -44.561,
+    44.214,
+    0.387
+   ],
+   "size": 3.2617
+  },
+  "TU1-R04-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -61.703,
+    29.417,
+    0.015,
+    -54.555,
+    39.135,
+    0.387
+   ],
+   "size": 3.2617
+  },
+  "TU1-R04-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -63.2,
+    18.68,
+    0.015,
+    -60.954,
+    29.7,
+    0.387
+   ],
+   "size": 3.2057
+  },
+  "TU1-R04-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -63.2,
+    8.635,
+    0.015,
+    -62.4,
+    18.68,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -63.2,
+    -1.41,
+    0.015,
+    -62.4,
+    8.635,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -63.2,
+    -11.455,
+    0.015,
+    -62.4,
+    -1.41,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R04-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -63.2,
+    -21.5,
+    0.015,
+    -62.4,
+    -11.455,
+    0.387
+   ],
+   "size": 2.985
+  },
+  "TU1-R05-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.0,
+    -33.054,
+    0.253,
+    -60.335,
+    -21.5,
+    0.631
+   ],
+   "size": 3.4373
+  },
+  "TU1-R05-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -61.036,
+    -41.753,
+    0.253,
+    -52.447,
+    -32.668,
+    0.631
+   ],
+   "size": 3.4373
+  },
+  "TU1-R05-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -52.876,
+    -45.451,
+    0.253,
+    -41.485,
+    -41.078,
+    0.631
+   ],
+   "size": 3.4373
+  },
+  "TU1-R05-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.536,
+    -45.5,
+    0.253,
+    -31.236,
+    -44.652,
+    0.631
+   ],
+   "size": 3.1058
+  },
+  "TU1-R05-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -45.5,
+    0.253,
+    -21.191,
+    -44.7,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -45.5,
+    0.253,
+    -11.146,
+    -44.7,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -45.5,
+    0.253,
+    -1.101,
+    -44.7,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -45.5,
+    0.253,
+    8.944,
+    -44.7,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -45.5,
+    0.253,
+    18.989,
+    -44.7,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -45.5,
+    0.253,
+    29.034,
+    -44.7,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -45.5,
+    0.253,
+    39.079,
+    -44.7,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -45.5,
+    0.253,
+    50.573,
+    -42.328,
+    0.631
+   ],
+   "size": 3.4099
+  },
+  "TU1-R05-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    50.22,
+    -43.046,
+    0.253,
+    59.639,
+    -34.835,
+    0.631
+   ],
+   "size": 3.4373
+  },
+  "TU1-R05-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    58.984,
+    -35.295,
+    0.253,
+    63.855,
+    -24.05,
+    0.631
+   ],
+   "size": 3.4373
+  },
+  "TU1-R05-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    63.059,
+    -24.137,
+    0.253,
+    64.0,
+    -13.657,
+    0.631
+   ],
+   "size": 3.1503
+  },
+  "TU1-R05-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    63.2,
+    -13.657,
+    0.253,
+    64.0,
+    -3.612,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    63.2,
+    -3.612,
+    0.253,
+    64.0,
+    6.433,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    63.2,
+    6.433,
+    0.253,
+    64.0,
+    16.478,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    62.472,
+    16.478,
+    0.253,
+    64.0,
+    27.464,
+    0.631
+   ],
+   "size": 3.27
+  },
+  "TU1-R05-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    56.922,
+    27.265,
+    0.253,
+    63.247,
+    37.918,
+    0.631
+   ],
+   "size": 3.4373
+  },
+  "TU1-R05-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    47.192,
+    37.371,
+    0.253,
+    57.505,
+    44.318,
+    0.631
+   ],
+   "size": 3.4373
+  },
+  "TU1-R05-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    43.557,
+    0.253,
+    47.44,
+    45.5,
+    0.631
+   ],
+   "size": 3.3174
+  },
+  "TU1-R05-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    44.7,
+    0.253,
+    36.259,
+    45.5,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    44.7,
+    0.253,
+    26.214,
+    45.5,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    44.7,
+    0.253,
+    16.169,
+    45.5,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    44.7,
+    0.253,
+    6.124,
+    45.5,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    44.7,
+    0.253,
+    -3.921,
+    45.5,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    44.7,
+    0.253,
+    -13.966,
+    45.5,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    44.7,
+    0.253,
+    -24.011,
+    45.5,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -44.887,
+    44.214,
+    0.253,
+    -34.056,
+    45.5,
+    0.631
+   ],
+   "size": 3.2334
+  },
+  "TU1-R05-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -55.595,
+    39.135,
+    0.253,
+    -44.724,
+    44.997,
+    0.631
+   ],
+   "size": 3.4373
+  },
+  "TU1-R05-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -62.451,
+    29.7,
+    0.253,
+    -55.075,
+    39.743,
+    0.631
+   ],
+   "size": 3.4373
+  },
+  "TU1-R05-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.0,
+    18.68,
+    0.253,
+    -61.703,
+    29.982,
+    0.631
+   ],
+   "size": 3.3493
+  },
+  "TU1-R05-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.0,
+    8.635,
+    0.253,
+    -63.2,
+    18.68,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.0,
+    -1.41,
+    0.253,
+    -63.2,
+    8.635,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.0,
+    -11.455,
+    0.253,
+    -63.2,
+    -1.41,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R05-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.0,
+    -21.5,
+    0.253,
+    -63.2,
+    -11.455,
+    0.631
+   ],
+   "size": 3.0391
+  },
+  "TU1-R06-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.8,
+    -33.439,
+    0.499,
+    -61.036,
+    -21.5,
+    0.883
+   ],
+   "size": 3.6126
+  },
+  "TU1-R06-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -61.737,
+    -42.429,
+    0.499,
+    -52.876,
+    -33.054,
+    0.883
+   ],
+   "size": 3.6126
+  },
+  "TU1-R06-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -53.306,
+    -46.249,
+    0.499,
+    -41.536,
+    -41.753,
+    0.883
+   ],
+   "size": 3.6126
+  },
+  "TU1-R06-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.587,
+    -46.3,
+    0.499,
+    -31.236,
+    -45.451,
+    0.883
+   ],
+   "size": 3.173
+  },
+  "TU1-R06-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -46.3,
+    0.499,
+    -21.191,
+    -45.5,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -46.3,
+    0.499,
+    -11.146,
+    -45.5,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -46.3,
+    0.499,
+    -1.101,
+    -45.5,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -46.3,
+    0.499,
+    8.944,
+    -45.5,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -46.3,
+    0.499,
+    18.989,
+    -45.5,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -46.3,
+    0.499,
+    29.034,
+    -45.5,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -46.3,
+    0.499,
+    39.079,
+    -45.5,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -46.3,
+    0.499,
+    50.925,
+    -43.046,
+    0.883
+   ],
+   "size": 3.5748
+  },
+  "TU1-R06-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    50.573,
+    -43.764,
+    0.499,
+    60.294,
+    -35.295,
+    0.883
+   ],
+   "size": 3.6126
+  },
+  "TU1-R06-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    59.639,
+    -35.755,
+    0.499,
+    64.65,
+    -24.137,
+    0.883
+   ],
+   "size": 3.6126
+  },
+  "TU1-R06-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    63.855,
+    -24.225,
+    0.499,
+    64.8,
+    -13.657,
+    0.883
+   ],
+   "size": 3.2295
+  },
+  "TU1-R06-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    64.0,
+    -13.657,
+    0.499,
+    64.8,
+    -3.612,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    64.0,
+    -3.612,
+    0.499,
+    64.8,
+    6.433,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    64.0,
+    6.433,
+    0.499,
+    64.8,
+    16.478,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    63.247,
+    16.478,
+    0.499,
+    64.8,
+    27.663,
+    0.883
+   ],
+   "size": 3.3853
+  },
+  "TU1-R06-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    57.505,
+    27.464,
+    0.499,
+    64.022,
+    38.466,
+    0.883
+   ],
+   "size": 3.6126
+  },
+  "TU1-R06-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    47.44,
+    37.918,
+    0.499,
+    58.089,
+    45.078,
+    0.883
+   ],
+   "size": 3.6126
+  },
+  "TU1-R06-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    44.318,
+    0.499,
+    47.688,
+    46.3,
+    0.883
+   ],
+   "size": 3.4486
+  },
+  "TU1-R06-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    45.5,
+    0.499,
+    36.259,
+    46.3,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    45.5,
+    0.499,
+    26.214,
+    46.3,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    45.5,
+    0.499,
+    16.169,
+    46.3,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    45.5,
+    0.499,
+    6.124,
+    46.3,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    45.5,
+    0.499,
+    -3.921,
+    46.3,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    45.5,
+    0.499,
+    -13.966,
+    46.3,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    45.5,
+    0.499,
+    -24.011,
+    46.3,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -45.05,
+    44.997,
+    0.499,
+    -34.056,
+    46.3,
+    0.883
+   ],
+   "size": 3.337
+  },
+  "TU1-R06-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -56.115,
+    39.743,
+    0.499,
+    -44.887,
+    45.78,
+    0.883
+   ],
+   "size": 3.6126
+  },
+  "TU1-R06-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -63.199,
+    29.982,
+    0.499,
+    -55.595,
+    40.351,
+    0.883
+   ],
+   "size": 3.6126
+  },
+  "TU1-R06-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.8,
+    18.68,
+    0.499,
+    -62.451,
+    30.265,
+    0.883
+   ],
+   "size": 3.4917
+  },
+  "TU1-R06-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.8,
+    8.635,
+    0.499,
+    -64.0,
+    18.68,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.8,
+    -1.41,
+    0.499,
+    -64.0,
+    8.635,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.8,
+    -11.455,
+    0.499,
+    -64.0,
+    -1.41,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R06-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.8,
+    -21.5,
+    0.499,
+    -64.0,
+    -11.455,
+    0.883
+   ],
+   "size": 3.0894
+  },
+  "TU1-R07-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -65.6,
+    -33.824,
+    0.752,
+    -61.737,
+    -21.5,
+    1.142
+   ],
+   "size": 3.7879
+  },
+  "TU1-R07-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -62.438,
+    -43.104,
+    0.752,
+    -53.306,
+    -33.439,
+    1.142
+   ],
+   "size": 3.7879
+  },
+  "TU1-R07-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -53.735,
+    -47.048,
+    0.752,
+    -41.587,
+    -42.429,
+    1.142
+   ],
+   "size": 3.7879
+  },
+  "TU1-R07-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.639,
+    -47.1,
+    0.752,
+    -31.236,
+    -46.249,
+    1.142
+   ],
+   "size": 3.2373
+  },
+  "TU1-R07-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -47.1,
+    0.752,
+    -21.191,
+    -46.3,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -47.1,
+    0.752,
+    -11.146,
+    -46.3,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -47.1,
+    0.752,
+    -1.101,
+    -46.3,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -47.1,
+    0.752,
+    8.944,
+    -46.3,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -47.1,
+    0.752,
+    18.989,
+    -46.3,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -47.1,
+    0.752,
+    29.034,
+    -46.3,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -47.1,
+    0.752,
+    39.079,
+    -46.3,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -47.1,
+    0.752,
+    51.277,
+    -43.764,
+    1.142
+   ],
+   "size": 3.7392
+  },
+  "TU1-R07-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    50.925,
+    -44.482,
+    0.752,
+    60.948,
+    -35.755,
+    1.142
+   ],
+   "size": 3.7879
+  },
+  "TU1-R07-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    60.294,
+    -36.215,
+    0.752,
+    65.445,
+    -24.225,
+    1.142
+   ],
+   "size": 3.7879
+  },
+  "TU1-R07-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    64.65,
+    -24.313,
+    0.752,
+    65.6,
+    -13.657,
+    1.142
+   ],
+   "size": 3.3061
+  },
+  "TU1-R07-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    64.8,
+    -13.657,
+    0.752,
+    65.6,
+    -3.612,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    64.8,
+    -3.612,
+    0.752,
+    65.6,
+    6.433,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    64.8,
+    6.433,
+    0.752,
+    65.6,
+    16.478,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    64.022,
+    16.478,
+    0.752,
+    65.6,
+    27.861,
+    1.142
+   ],
+   "size": 3.4989
+  },
+  "TU1-R07-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    58.089,
+    27.663,
+    0.752,
+    64.797,
+    39.013,
+    1.142
+   ],
+   "size": 3.7879
+  },
+  "TU1-R07-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    47.688,
+    38.466,
+    0.752,
+    58.672,
+    45.839,
+    1.142
+   ],
+   "size": 3.7879
+  },
+  "TU1-R07-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    45.078,
+    0.752,
+    47.936,
+    47.1,
+    1.142
+   ],
+   "size": 3.5786
+  },
+  "TU1-R07-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    46.3,
+    0.752,
+    36.259,
+    47.1,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    46.3,
+    0.752,
+    26.214,
+    47.1,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    46.3,
+    0.752,
+    16.169,
+    47.1,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    46.3,
+    0.752,
+    6.124,
+    47.1,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    46.3,
+    0.752,
+    -3.921,
+    47.1,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    46.3,
+    0.752,
+    -13.966,
+    47.1,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    46.3,
+    0.752,
+    -24.011,
+    47.1,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -45.213,
+    45.78,
+    0.752,
+    -34.056,
+    47.1,
+    1.142
+   ],
+   "size": 3.4387
+  },
+  "TU1-R07-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -56.635,
+    40.351,
+    0.752,
+    -45.05,
+    46.564,
+    1.142
+   ],
+   "size": 3.7879
+  },
+  "TU1-R07-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -63.948,
+    30.265,
+    0.752,
+    -56.115,
+    40.959,
+    1.142
+   ],
+   "size": 3.7879
+  },
+  "TU1-R07-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -65.6,
+    18.68,
+    0.752,
+    -63.199,
+    30.548,
+    1.142
+   ],
+   "size": 3.6332
+  },
+  "TU1-R07-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -65.6,
+    8.635,
+    0.752,
+    -64.8,
+    18.68,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -65.6,
+    -1.41,
+    0.752,
+    -64.8,
+    8.635,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -65.6,
+    -11.455,
+    0.752,
+    -64.8,
+    -1.41,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R07-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -65.6,
+    -21.5,
+    0.752,
+    -64.8,
+    -11.455,
+    1.142
+   ],
+   "size": 3.1365
+  },
+  "TU1-R08-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -66.4,
+    -34.209,
+    1.011,
+    -62.438,
+    -21.5,
+    1.407
+   ],
+   "size": 3.9632
+  },
+  "TU1-R08-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -63.14,
+    -43.779,
+    1.011,
+    -53.735,
+    -33.824,
+    1.407
+   ],
+   "size": 3.9632
+  },
+  "TU1-R08-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -54.164,
+    -47.846,
+    1.011,
+    -41.639,
+    -43.104,
+    1.407
+   ],
+   "size": 3.9632
+  },
+  "TU1-R08-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.69,
+    -47.9,
+    1.011,
+    -31.236,
+    -47.048,
+    1.407
+   ],
+   "size": 3.2991
+  },
+  "TU1-R08-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -47.9,
+    1.011,
+    -21.191,
+    -47.1,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -47.9,
+    1.011,
+    -11.146,
+    -47.1,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -47.9,
+    1.011,
+    -1.101,
+    -47.1,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -47.9,
+    1.011,
+    8.944,
+    -47.1,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -47.9,
+    1.011,
+    18.989,
+    -47.1,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -47.9,
+    1.011,
+    29.034,
+    -47.1,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -47.9,
+    1.011,
+    39.079,
+    -47.1,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -47.9,
+    1.011,
+    51.63,
+    -44.482,
+    1.407
+   ],
+   "size": 3.9035
+  },
+  "TU1-R08-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    51.277,
+    -45.2,
+    1.011,
+    61.603,
+    -36.215,
+    1.407
+   ],
+   "size": 3.9632
+  },
+  "TU1-R08-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    60.948,
+    -36.675,
+    1.011,
+    66.24,
+    -24.313,
+    1.407
+   ],
+   "size": 3.9632
+  },
+  "TU1-R08-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    65.445,
+    -24.401,
+    1.011,
+    66.4,
+    -13.657,
+    1.407
+   ],
+   "size": 3.3805
+  },
+  "TU1-R08-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    65.6,
+    -13.657,
+    1.011,
+    66.4,
+    -3.612,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    65.6,
+    -3.612,
+    1.011,
+    66.4,
+    6.433,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    65.6,
+    6.433,
+    1.011,
+    66.4,
+    16.478,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    64.797,
+    16.478,
+    1.011,
+    66.4,
+    28.06,
+    1.407
+   ],
+   "size": 3.6111
+  },
+  "TU1-R08-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    58.672,
+    27.861,
+    1.011,
+    65.572,
+    39.56,
+    1.407
+   ],
+   "size": 3.9632
+  },
+  "TU1-R08-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    47.936,
+    39.013,
+    1.011,
+    59.256,
+    46.6,
+    1.407
+   ],
+   "size": 3.9632
+  },
+  "TU1-R08-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    45.839,
+    1.011,
+    48.184,
+    47.9,
+    1.407
+   ],
+   "size": 3.7075
+  },
+  "TU1-R08-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    47.1,
+    1.011,
+    36.259,
+    47.9,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    47.1,
+    1.011,
+    26.214,
+    47.9,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    47.1,
+    1.011,
+    16.169,
+    47.9,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    47.1,
+    1.011,
+    6.124,
+    47.9,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    47.1,
+    1.011,
+    -3.921,
+    47.9,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    47.1,
+    1.011,
+    -13.966,
+    47.9,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    47.1,
+    1.011,
+    -24.011,
+    47.9,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -45.376,
+    46.564,
+    1.011,
+    -34.056,
+    47.9,
+    1.407
+   ],
+   "size": 3.5387
+  },
+  "TU1-R08-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -57.154,
+    40.959,
+    1.011,
+    -45.213,
+    47.347,
+    1.407
+   ],
+   "size": 3.9632
+  },
+  "TU1-R08-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.696,
+    30.548,
+    1.011,
+    -56.635,
+    41.567,
+    1.407
+   ],
+   "size": 3.9632
+  },
+  "TU1-R08-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -66.4,
+    18.68,
+    1.011,
+    -63.948,
+    30.831,
+    1.407
+   ],
+   "size": 3.7739
+  },
+  "TU1-R08-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -66.4,
+    8.635,
+    1.011,
+    -65.6,
+    18.68,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -66.4,
+    -1.41,
+    1.011,
+    -65.6,
+    8.635,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -66.4,
+    -11.455,
+    1.011,
+    -65.6,
+    -1.41,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R08-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -66.4,
+    -21.5,
+    1.011,
+    -65.6,
+    -11.455,
+    1.407
+   ],
+   "size": 3.1806
+  },
+  "TU1-R09-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -67.2,
+    -34.594,
+    1.276,
+    -63.14,
+    -21.5,
+    1.677
+   ],
+   "size": 4.1386
+  },
+  "TU1-R09-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -63.841,
+    -44.454,
+    1.276,
+    -54.164,
+    -34.209,
+    1.677
+   ],
+   "size": 4.1386
+  },
+  "TU1-R09-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -54.593,
+    -48.644,
+    1.276,
+    -41.69,
+    -43.779,
+    1.677
+   ],
+   "size": 4.1386
+  },
+  "TU1-R09-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.741,
+    -48.7,
+    1.276,
+    -31.236,
+    -47.846,
+    1.677
+   ],
+   "size": 3.3587
+  },
+  "TU1-R09-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -48.7,
+    1.276,
+    -21.191,
+    -47.9,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -48.7,
+    1.276,
+    -11.146,
+    -47.9,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -48.7,
+    1.276,
+    -1.101,
+    -47.9,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -48.7,
+    1.276,
+    8.944,
+    -47.9,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -48.7,
+    1.276,
+    18.989,
+    -47.9,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -48.7,
+    1.276,
+    29.034,
+    -47.9,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -48.7,
+    1.276,
+    39.079,
+    -47.9,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -48.7,
+    1.276,
+    51.982,
+    -45.2,
+    1.677
+   ],
+   "size": 4.0676
+  },
+  "TU1-R09-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    51.63,
+    -45.919,
+    1.276,
+    62.258,
+    -36.675,
+    1.677
+   ],
+   "size": 4.1386
+  },
+  "TU1-R09-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    61.603,
+    -37.135,
+    1.276,
+    67.035,
+    -24.401,
+    1.677
+   ],
+   "size": 4.1386
+  },
+  "TU1-R09-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    66.24,
+    -24.489,
+    1.276,
+    67.2,
+    -13.657,
+    1.677
+   ],
+   "size": 3.4529
+  },
+  "TU1-R09-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    66.4,
+    -13.657,
+    1.276,
+    67.2,
+    -3.612,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    66.4,
+    -3.612,
+    1.276,
+    67.2,
+    6.433,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    66.4,
+    6.433,
+    1.276,
+    67.2,
+    16.478,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    65.572,
+    16.478,
+    1.276,
+    67.2,
+    28.259,
+    1.677
+   ],
+   "size": 3.7222
+  },
+  "TU1-R09-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    59.256,
+    28.06,
+    1.276,
+    66.347,
+    40.108,
+    1.677
+   ],
+   "size": 4.1386
+  },
+  "TU1-R09-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    48.184,
+    39.56,
+    1.276,
+    59.839,
+    47.36,
+    1.677
+   ],
+   "size": 4.1386
+  },
+  "TU1-R09-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    46.6,
+    1.276,
+    48.432,
+    48.7,
+    1.677
+   ],
+   "size": 3.8356
+  },
+  "TU1-R09-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    47.9,
+    1.276,
+    36.259,
+    48.7,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    47.9,
+    1.276,
+    26.214,
+    48.7,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    47.9,
+    1.276,
+    16.169,
+    48.7,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    47.9,
+    1.276,
+    6.124,
+    48.7,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    47.9,
+    1.276,
+    -3.921,
+    48.7,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    47.9,
+    1.276,
+    -13.966,
+    48.7,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    47.9,
+    1.276,
+    -24.011,
+    48.7,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -45.539,
+    47.347,
+    1.276,
+    -34.056,
+    48.7,
+    1.677
+   ],
+   "size": 3.6373
+  },
+  "TU1-R09-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -57.674,
+    41.567,
+    1.276,
+    -45.376,
+    48.13,
+    1.677
+   ],
+   "size": 4.1386
+  },
+  "TU1-R09-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -65.444,
+    30.831,
+    1.276,
+    -57.154,
+    42.175,
+    1.677
+   ],
+   "size": 4.1386
+  },
+  "TU1-R09-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -67.2,
+    18.68,
+    1.276,
+    -64.696,
+    31.113,
+    1.677
+   ],
+   "size": 3.9139
+  },
+  "TU1-R09-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -67.2,
+    8.635,
+    1.276,
+    -66.4,
+    18.68,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -67.2,
+    -1.41,
+    1.276,
+    -66.4,
+    8.635,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -67.2,
+    -11.455,
+    1.276,
+    -66.4,
+    -1.41,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R09-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -67.2,
+    -21.5,
+    1.276,
+    -66.4,
+    -11.455,
+    1.677
+   ],
+   "size": 3.2223
+  },
+  "TU1-R10-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.0,
+    -34.979,
+    1.547,
+    -63.841,
+    -21.5,
+    1.953
+   ],
+   "size": 4.3142
+  },
+  "TU1-R10-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -64.542,
+    -45.129,
+    1.547,
+    -54.593,
+    -34.594,
+    1.953
+   ],
+   "size": 4.3142
+  },
+  "TU1-R10-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -55.022,
+    -49.443,
+    1.547,
+    -41.741,
+    -44.454,
+    1.953
+   ],
+   "size": 4.3142
+  },
+  "TU1-R10-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.792,
+    -49.5,
+    1.547,
+    -31.236,
+    -48.644,
+    1.953
+   ],
+   "size": 3.4164
+  },
+  "TU1-R10-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -49.5,
+    1.547,
+    -21.191,
+    -48.7,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -49.5,
+    1.547,
+    -11.146,
+    -48.7,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -49.5,
+    1.547,
+    -1.101,
+    -48.7,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -49.5,
+    1.547,
+    8.944,
+    -48.7,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -49.5,
+    1.547,
+    18.989,
+    -48.7,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -49.5,
+    1.547,
+    29.034,
+    -48.7,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -49.5,
+    1.547,
+    39.079,
+    -48.7,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -49.5,
+    1.547,
+    52.335,
+    -45.919,
+    1.953
+   ],
+   "size": 4.2317
+  },
+  "TU1-R10-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    51.982,
+    -46.637,
+    1.547,
+    62.912,
+    -37.135,
+    1.953
+   ],
+   "size": 4.3142
+  },
+  "TU1-R10-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    62.258,
+    -37.595,
+    1.547,
+    67.83,
+    -24.489,
+    1.953
+   ],
+   "size": 4.3142
+  },
+  "TU1-R10-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    67.035,
+    -24.577,
+    1.547,
+    68.0,
+    -13.657,
+    1.953
+   ],
+   "size": 3.5237
+  },
+  "TU1-R10-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    67.2,
+    -13.657,
+    1.547,
+    68.0,
+    -3.612,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    67.2,
+    -3.612,
+    1.547,
+    68.0,
+    6.433,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    67.2,
+    6.433,
+    1.547,
+    68.0,
+    16.478,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    66.347,
+    16.478,
+    1.547,
+    68.0,
+    28.458,
+    1.953
+   ],
+   "size": 3.8322
+  },
+  "TU1-R10-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    59.839,
+    28.259,
+    1.547,
+    67.122,
+    40.655,
+    1.953
+   ],
+   "size": 4.3142
+  },
+  "TU1-R10-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    48.432,
+    40.108,
+    1.547,
+    60.423,
+    48.121,
+    1.953
+   ],
+   "size": 4.3142
+  },
+  "TU1-R10-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    47.36,
+    1.547,
+    48.68,
+    49.5,
+    1.953
+   ],
+   "size": 3.9629
+  },
+  "TU1-R10-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    48.7,
+    1.547,
+    36.259,
+    49.5,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    48.7,
+    1.547,
+    26.214,
+    49.5,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    48.7,
+    1.547,
+    16.169,
+    49.5,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    48.7,
+    1.547,
+    6.124,
+    49.5,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    48.7,
+    1.547,
+    -3.921,
+    49.5,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    48.7,
+    1.547,
+    -13.966,
+    49.5,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    48.7,
+    1.547,
+    -24.011,
+    49.5,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -45.701,
+    48.13,
+    1.547,
+    -34.056,
+    49.5,
+    1.953
+   ],
+   "size": 3.7346
+  },
+  "TU1-R10-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -58.194,
+    42.175,
+    1.547,
+    -45.539,
+    48.913,
+    1.953
+   ],
+   "size": 4.3142
+  },
+  "TU1-R10-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -66.193,
+    31.113,
+    1.547,
+    -57.674,
+    42.783,
+    1.953
+   ],
+   "size": 4.3142
+  },
+  "TU1-R10-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.0,
+    18.68,
+    1.547,
+    -65.444,
+    31.396,
+    1.953
+   ],
+   "size": 4.0536
+  },
+  "TU1-R10-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.0,
+    8.635,
+    1.547,
+    -67.2,
+    18.68,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.0,
+    -1.41,
+    1.547,
+    -67.2,
+    8.635,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.0,
+    -11.455,
+    1.547,
+    -67.2,
+    -1.41,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R10-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.0,
+    -21.5,
+    1.547,
+    -67.2,
+    -11.455,
+    1.953
+   ],
+   "size": 3.2616
+  },
+  "TU1-R11-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.8,
+    -35.364,
+    1.824,
+    -64.542,
+    -21.5,
+    2.235
+   ],
+   "size": 4.49
+  },
+  "TU1-R11-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -65.243,
+    -45.804,
+    1.824,
+    -55.022,
+    -34.979,
+    2.235
+   ],
+   "size": 4.49
+  },
+  "TU1-R11-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -55.452,
+    -50.241,
+    1.824,
+    -41.792,
+    -45.129,
+    2.235
+   ],
+   "size": 4.49
+  },
+  "TU1-R11-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.843,
+    -50.3,
+    1.824,
+    -31.236,
+    -49.443,
+    2.235
+   ],
+   "size": 3.4723
+  },
+  "TU1-R11-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -50.3,
+    1.824,
+    -21.191,
+    -49.5,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -50.3,
+    1.824,
+    -11.146,
+    -49.5,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -50.3,
+    1.824,
+    -1.101,
+    -49.5,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -50.3,
+    1.824,
+    8.944,
+    -49.5,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -50.3,
+    1.824,
+    18.989,
+    -49.5,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -50.3,
+    1.824,
+    29.034,
+    -49.5,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -50.3,
+    1.824,
+    39.079,
+    -49.5,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -50.3,
+    1.824,
+    52.687,
+    -46.637,
+    2.235
+   ],
+   "size": 4.3959
+  },
+  "TU1-R11-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    52.335,
+    -47.355,
+    1.824,
+    63.567,
+    -37.595,
+    2.235
+   ],
+   "size": 4.49
+  },
+  "TU1-R11-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    62.912,
+    -38.054,
+    1.824,
+    68.626,
+    -24.577,
+    2.235
+   ],
+   "size": 4.49
+  },
+  "TU1-R11-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    67.83,
+    -24.665,
+    1.824,
+    68.8,
+    -13.657,
+    2.235
+   ],
+   "size": 3.5929
+  },
+  "TU1-R11-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    68.0,
+    -13.657,
+    1.824,
+    68.8,
+    -3.612,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    68.0,
+    -3.612,
+    1.824,
+    68.8,
+    6.433,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    68.0,
+    6.433,
+    1.824,
+    68.8,
+    16.478,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    67.122,
+    16.478,
+    1.824,
+    68.8,
+    28.657,
+    2.235
+   ],
+   "size": 3.9413
+  },
+  "TU1-R11-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    60.423,
+    28.458,
+    1.824,
+    67.897,
+    41.202,
+    2.235
+   ],
+   "size": 4.49
+  },
+  "TU1-R11-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    48.68,
+    40.655,
+    1.824,
+    61.006,
+    48.881,
+    2.235
+   ],
+   "size": 4.49
+  },
+  "TU1-R11-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    48.121,
+    1.824,
+    48.928,
+    50.3,
+    2.235
+   ],
+   "size": 4.0897
+  },
+  "TU1-R11-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    49.5,
+    1.824,
+    36.259,
+    50.3,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    49.5,
+    1.824,
+    26.214,
+    50.3,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    49.5,
+    1.824,
+    16.169,
+    50.3,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    49.5,
+    1.824,
+    6.124,
+    50.3,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    49.5,
+    1.824,
+    -3.921,
+    50.3,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    49.5,
+    1.824,
+    -13.966,
+    50.3,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    49.5,
+    1.824,
+    -24.011,
+    50.3,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -45.864,
+    48.913,
+    1.824,
+    -34.056,
+    50.3,
+    2.235
+   ],
+   "size": 3.8308
+  },
+  "TU1-R11-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -58.714,
+    42.783,
+    1.824,
+    -45.701,
+    49.697,
+    2.235
+   ],
+   "size": 4.49
+  },
+  "TU1-R11-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -66.941,
+    31.396,
+    1.824,
+    -58.194,
+    43.391,
+    2.235
+   ],
+   "size": 4.49
+  },
+  "TU1-R11-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.8,
+    18.68,
+    1.824,
+    -66.193,
+    31.679,
+    2.235
+   ],
+   "size": 4.1928
+  },
+  "TU1-R11-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.8,
+    8.635,
+    1.824,
+    -68.0,
+    18.68,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.8,
+    -1.41,
+    1.824,
+    -68.0,
+    8.635,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.8,
+    -11.455,
+    1.824,
+    -68.0,
+    -1.41,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R11-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.8,
+    -21.5,
+    1.824,
+    -68.0,
+    -11.455,
+    2.235
+   ],
+   "size": 3.2989
+  },
+  "TU1-R12-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -69.6,
+    -35.749,
+    2.106,
+    -65.243,
+    -21.5,
+    2.521
+   ],
+   "size": 4.6662
+  },
+  "TU1-R12-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -65.944,
+    -46.479,
+    2.106,
+    -55.452,
+    -35.364,
+    2.521
+   ],
+   "size": 4.6662
+  },
+  "TU1-R12-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -55.881,
+    -51.039,
+    2.106,
+    -41.843,
+    -45.804,
+    2.521
+   ],
+   "size": 4.6662
+  },
+  "TU1-R12-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.895,
+    -51.1,
+    2.106,
+    -31.236,
+    -50.241,
+    2.521
+   ],
+   "size": 3.5266
+  },
+  "TU1-R12-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -51.1,
+    2.106,
+    -21.191,
+    -50.3,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -51.1,
+    2.106,
+    -11.146,
+    -50.3,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -51.1,
+    2.106,
+    -1.101,
+    -50.3,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -51.1,
+    2.106,
+    8.944,
+    -50.3,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -51.1,
+    2.106,
+    18.989,
+    -50.3,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -51.1,
+    2.106,
+    29.034,
+    -50.3,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -51.1,
+    2.106,
+    39.079,
+    -50.3,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -51.1,
+    2.106,
+    53.04,
+    -47.355,
+    2.521
+   ],
+   "size": 4.5602
+  },
+  "TU1-R12-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    52.687,
+    -48.073,
+    2.106,
+    64.221,
+    -38.054,
+    2.521
+   ],
+   "size": 4.6662
+  },
+  "TU1-R12-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    63.567,
+    -38.514,
+    2.106,
+    69.421,
+    -24.665,
+    2.521
+   ],
+   "size": 4.6662
+  },
+  "TU1-R12-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    68.626,
+    -24.753,
+    2.106,
+    69.6,
+    -13.657,
+    2.521
+   ],
+   "size": 3.6607
+  },
+  "TU1-R12-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    68.8,
+    -13.657,
+    2.106,
+    69.6,
+    -3.612,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    68.8,
+    -3.612,
+    2.106,
+    69.6,
+    6.433,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    68.8,
+    6.433,
+    2.106,
+    69.6,
+    16.478,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    67.897,
+    16.478,
+    2.106,
+    69.6,
+    28.855,
+    2.521
+   ],
+   "size": 4.0497
+  },
+  "TU1-R12-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    61.006,
+    28.657,
+    2.106,
+    68.672,
+    41.749,
+    2.521
+   ],
+   "size": 4.6662
+  },
+  "TU1-R12-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    48.928,
+    41.202,
+    2.106,
+    61.59,
+    49.642,
+    2.521
+   ],
+   "size": 4.6662
+  },
+  "TU1-R12-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    48.881,
+    2.106,
+    49.176,
+    51.1,
+    2.521
+   ],
+   "size": 4.2161
+  },
+  "TU1-R12-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    50.3,
+    2.106,
+    36.259,
+    51.1,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    50.3,
+    2.106,
+    26.214,
+    51.1,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    50.3,
+    2.106,
+    16.169,
+    51.1,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    50.3,
+    2.106,
+    6.124,
+    51.1,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    50.3,
+    2.106,
+    -3.921,
+    51.1,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    50.3,
+    2.106,
+    -13.966,
+    51.1,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    50.3,
+    2.106,
+    -24.011,
+    51.1,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -46.027,
+    49.697,
+    2.106,
+    -34.056,
+    51.1,
+    2.521
+   ],
+   "size": 3.9261
+  },
+  "TU1-R12-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -59.234,
+    43.391,
+    2.106,
+    -45.864,
+    50.48,
+    2.521
+   ],
+   "size": 4.6662
+  },
+  "TU1-R12-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -67.69,
+    31.679,
+    2.106,
+    -58.714,
+    43.999,
+    2.521
+   ],
+   "size": 4.6662
+  },
+  "TU1-R12-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -69.6,
+    18.68,
+    2.106,
+    -66.941,
+    31.962,
+    2.521
+   ],
+   "size": 4.3318
+  },
+  "TU1-R12-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -69.6,
+    8.635,
+    2.106,
+    -68.8,
+    18.68,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -69.6,
+    -1.41,
+    2.106,
+    -68.8,
+    8.635,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -69.6,
+    -11.455,
+    2.106,
+    -68.8,
+    -1.41,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R12-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -69.6,
+    -21.5,
+    2.106,
+    -68.8,
+    -11.455,
+    2.521
+   ],
+   "size": 3.3344
+  },
+  "TU1-R13-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -70.4,
+    -36.134,
+    2.392,
+    -65.944,
+    -21.5,
+    2.811
+   ],
+   "size": 4.8427
+  },
+  "TU1-R13-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -66.646,
+    -47.154,
+    2.392,
+    -55.881,
+    -35.749,
+    2.811
+   ],
+   "size": 4.8427
+  },
+  "TU1-R13-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -56.31,
+    -51.838,
+    2.392,
+    -41.895,
+    -46.479,
+    2.811
+   ],
+   "size": 4.8427
+  },
+  "TU1-R13-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.946,
+    -51.9,
+    2.392,
+    -31.236,
+    -51.039,
+    2.811
+   ],
+   "size": 3.5796
+  },
+  "TU1-R13-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -51.9,
+    2.392,
+    -21.191,
+    -51.1,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -51.9,
+    2.392,
+    -11.146,
+    -51.1,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -51.9,
+    2.392,
+    -1.101,
+    -51.1,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -51.9,
+    2.392,
+    8.944,
+    -51.1,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -51.9,
+    2.392,
+    18.989,
+    -51.1,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -51.9,
+    2.392,
+    29.034,
+    -51.1,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -51.9,
+    2.392,
+    39.079,
+    -51.1,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -51.9,
+    2.392,
+    53.392,
+    -48.073,
+    2.811
+   ],
+   "size": 4.7246
+  },
+  "TU1-R13-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    53.04,
+    -48.791,
+    2.392,
+    64.876,
+    -38.514,
+    2.811
+   ],
+   "size": 4.8427
+  },
+  "TU1-R13-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    64.221,
+    -38.974,
+    2.392,
+    70.216,
+    -24.753,
+    2.811
+   ],
+   "size": 4.8427
+  },
+  "TU1-R13-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    69.421,
+    -24.841,
+    2.392,
+    70.4,
+    -13.657,
+    2.811
+   ],
+   "size": 3.7273
+  },
+  "TU1-R13-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    69.6,
+    -13.657,
+    2.392,
+    70.4,
+    -3.612,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    69.6,
+    -3.612,
+    2.392,
+    70.4,
+    6.433,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    69.6,
+    6.433,
+    2.392,
+    70.4,
+    16.478,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    68.672,
+    16.478,
+    2.392,
+    70.4,
+    29.054,
+    2.811
+   ],
+   "size": 4.1575
+  },
+  "TU1-R13-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    61.59,
+    28.855,
+    2.392,
+    69.446,
+    42.297,
+    2.811
+   ],
+   "size": 4.8427
+  },
+  "TU1-R13-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    49.176,
+    41.749,
+    2.392,
+    62.173,
+    50.403,
+    2.811
+   ],
+   "size": 4.8427
+  },
+  "TU1-R13-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    49.642,
+    2.392,
+    49.423,
+    51.9,
+    2.811
+   ],
+   "size": 4.342
+  },
+  "TU1-R13-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    51.1,
+    2.392,
+    36.259,
+    51.9,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    51.1,
+    2.392,
+    26.214,
+    51.9,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    51.1,
+    2.392,
+    16.169,
+    51.9,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    51.1,
+    2.392,
+    6.124,
+    51.9,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    51.1,
+    2.392,
+    -3.921,
+    51.9,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    51.1,
+    2.392,
+    -13.966,
+    51.9,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    51.1,
+    2.392,
+    -24.011,
+    51.9,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -46.19,
+    50.48,
+    2.392,
+    -34.056,
+    51.9,
+    2.811
+   ],
+   "size": 4.0206
+  },
+  "TU1-R13-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -59.754,
+    43.999,
+    2.392,
+    -46.027,
+    51.263,
+    2.811
+   ],
+   "size": 4.8427
+  },
+  "TU1-R13-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.438,
+    31.962,
+    2.392,
+    -59.234,
+    44.607,
+    2.811
+   ],
+   "size": 4.8427
+  },
+  "TU1-R13-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -70.4,
+    18.68,
+    2.392,
+    -67.69,
+    32.244,
+    2.811
+   ],
+   "size": 4.4706
+  },
+  "TU1-R13-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -70.4,
+    8.635,
+    2.392,
+    -69.6,
+    18.68,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -70.4,
+    -1.41,
+    2.392,
+    -69.6,
+    8.635,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -70.4,
+    -11.455,
+    2.392,
+    -69.6,
+    -1.41,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R13-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -70.4,
+    -21.5,
+    2.392,
+    -69.6,
+    -11.455,
+    2.811
+   ],
+   "size": 3.3683
+  },
+  "TU1-R14-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -71.2,
+    -36.52,
+    2.683,
+    -66.646,
+    -21.5,
+    3.107
+   ],
+   "size": 5.0195
+  },
+  "TU1-R14-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -67.347,
+    -47.829,
+    2.683,
+    -56.31,
+    -36.134,
+    3.107
+   ],
+   "size": 5.0195
+  },
+  "TU1-R14-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -56.739,
+    -52.636,
+    2.683,
+    -41.946,
+    -47.154,
+    3.107
+   ],
+   "size": 5.0195
+  },
+  "TU1-R14-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -41.997,
+    -52.7,
+    2.683,
+    -31.236,
+    -51.838,
+    3.107
+   ],
+   "size": 3.6313
+  },
+  "TU1-R14-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -52.7,
+    2.683,
+    -21.191,
+    -51.9,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -52.7,
+    2.683,
+    -11.146,
+    -51.9,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -52.7,
+    2.683,
+    -1.101,
+    -51.9,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -52.7,
+    2.683,
+    8.944,
+    -51.9,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -52.7,
+    2.683,
+    18.989,
+    -51.9,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -52.7,
+    2.683,
+    29.034,
+    -51.9,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -52.7,
+    2.683,
+    39.079,
+    -51.9,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -52.7,
+    2.683,
+    53.744,
+    -48.791,
+    3.107
+   ],
+   "size": 4.8893
+  },
+  "TU1-R14-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    53.392,
+    -49.51,
+    2.683,
+    65.531,
+    -38.974,
+    3.107
+   ],
+   "size": 5.0195
+  },
+  "TU1-R14-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    64.876,
+    -39.434,
+    2.683,
+    71.011,
+    -24.841,
+    3.107
+   ],
+   "size": 5.0195
+  },
+  "TU1-R14-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    70.216,
+    -24.929,
+    2.683,
+    71.2,
+    -13.657,
+    3.107
+   ],
+   "size": 3.7929
+  },
+  "TU1-R14-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    70.4,
+    -13.657,
+    2.683,
+    71.2,
+    -3.612,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    70.4,
+    -3.612,
+    2.683,
+    71.2,
+    6.433,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    70.4,
+    6.433,
+    2.683,
+    71.2,
+    16.478,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    69.446,
+    16.478,
+    2.683,
+    71.2,
+    29.253,
+    3.107
+   ],
+   "size": 4.2647
+  },
+  "TU1-R14-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    62.173,
+    29.054,
+    2.683,
+    70.221,
+    42.844,
+    3.107
+   ],
+   "size": 5.0195
+  },
+  "TU1-R14-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    49.423,
+    42.297,
+    2.683,
+    62.757,
+    51.163,
+    3.107
+   ],
+   "size": 5.0195
+  },
+  "TU1-R14-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    50.403,
+    2.683,
+    49.671,
+    52.7,
+    3.107
+   ],
+   "size": 4.4676
+  },
+  "TU1-R14-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    51.9,
+    2.683,
+    36.259,
+    52.7,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    51.9,
+    2.683,
+    26.214,
+    52.7,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    51.9,
+    2.683,
+    16.169,
+    52.7,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    51.9,
+    2.683,
+    6.124,
+    52.7,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    51.9,
+    2.683,
+    -3.921,
+    52.7,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    51.9,
+    2.683,
+    -13.966,
+    52.7,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    51.9,
+    2.683,
+    -24.011,
+    52.7,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -46.353,
+    51.263,
+    2.683,
+    -34.056,
+    52.7,
+    3.107
+   ],
+   "size": 4.1143
+  },
+  "TU1-R14-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -60.273,
+    44.607,
+    2.683,
+    -46.19,
+    52.046,
+    3.107
+   ],
+   "size": 5.0195
+  },
+  "TU1-R14-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -69.186,
+    32.244,
+    2.683,
+    -59.754,
+    45.216,
+    3.107
+   ],
+   "size": 5.0195
+  },
+  "TU1-R14-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -71.2,
+    18.68,
+    2.683,
+    -68.438,
+    32.527,
+    3.107
+   ],
+   "size": 4.6092
+  },
+  "TU1-R14-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -71.2,
+    8.635,
+    2.683,
+    -70.4,
+    18.68,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -71.2,
+    -1.41,
+    2.683,
+    -70.4,
+    8.635,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -71.2,
+    -11.455,
+    2.683,
+    -70.4,
+    -1.41,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R14-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -71.2,
+    -21.5,
+    2.683,
+    -70.4,
+    -11.455,
+    3.107
+   ],
+   "size": 3.4006
+  },
+  "TU1-R15-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.0,
+    -36.905,
+    2.979,
+    -67.347,
+    -21.5,
+    3.406
+   ],
+   "size": 5.1967
+  },
+  "TU1-R15-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.048,
+    -48.505,
+    2.979,
+    -56.739,
+    -36.52,
+    3.406
+   ],
+   "size": 5.1967
+  },
+  "TU1-R15-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -57.168,
+    -53.434,
+    2.979,
+    -41.997,
+    -47.829,
+    3.406
+   ],
+   "size": 5.1967
+  },
+  "TU1-R15-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -42.048,
+    -53.5,
+    2.979,
+    -31.236,
+    -52.636,
+    3.406
+   ],
+   "size": 3.6818
+  },
+  "TU1-R15-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -53.5,
+    2.979,
+    -21.191,
+    -52.7,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -53.5,
+    2.979,
+    -11.146,
+    -52.7,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -53.5,
+    2.979,
+    -1.101,
+    -52.7,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -53.5,
+    2.979,
+    8.944,
+    -52.7,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -53.5,
+    2.979,
+    18.989,
+    -52.7,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -53.5,
+    2.979,
+    29.034,
+    -52.7,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -53.5,
+    2.979,
+    39.079,
+    -52.7,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -53.5,
+    2.979,
+    54.097,
+    -49.51,
+    3.406
+   ],
+   "size": 5.0542
+  },
+  "TU1-R15-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    53.744,
+    -50.228,
+    2.979,
+    66.185,
+    -39.434,
+    3.406
+   ],
+   "size": 5.1967
+  },
+  "TU1-R15-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    65.531,
+    -39.894,
+    2.979,
+    71.806,
+    -24.929,
+    3.406
+   ],
+   "size": 5.1967
+  },
+  "TU1-R15-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    71.011,
+    -25.017,
+    2.979,
+    72.0,
+    -13.657,
+    3.406
+   ],
+   "size": 3.8574
+  },
+  "TU1-R15-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    71.2,
+    -13.657,
+    2.979,
+    72.0,
+    -3.612,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    71.2,
+    -3.612,
+    2.979,
+    72.0,
+    6.433,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    71.2,
+    6.433,
+    2.979,
+    72.0,
+    16.478,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    70.221,
+    16.478,
+    2.979,
+    72.0,
+    29.452,
+    3.406
+   ],
+   "size": 4.3714
+  },
+  "TU1-R15-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    62.757,
+    29.253,
+    2.979,
+    70.996,
+    43.391,
+    3.406
+   ],
+   "size": 5.1967
+  },
+  "TU1-R15-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    49.671,
+    42.844,
+    2.979,
+    63.34,
+    51.924,
+    3.406
+   ],
+   "size": 5.1967
+  },
+  "TU1-R15-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    51.163,
+    2.979,
+    49.919,
+    53.5,
+    3.406
+   ],
+   "size": 4.593
+  },
+  "TU1-R15-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    52.7,
+    2.979,
+    36.259,
+    53.5,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    52.7,
+    2.979,
+    26.214,
+    53.5,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    52.7,
+    2.979,
+    16.169,
+    53.5,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    52.7,
+    2.979,
+    6.124,
+    53.5,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    52.7,
+    2.979,
+    -3.921,
+    53.5,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    52.7,
+    2.979,
+    -13.966,
+    53.5,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    52.7,
+    2.979,
+    -24.011,
+    53.5,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -46.516,
+    52.046,
+    2.979,
+    -34.056,
+    53.5,
+    3.406
+   ],
+   "size": 4.2074
+  },
+  "TU1-R15-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -60.793,
+    45.216,
+    2.979,
+    -46.353,
+    52.83,
+    3.406
+   ],
+   "size": 5.1967
+  },
+  "TU1-R15-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -69.935,
+    32.527,
+    2.979,
+    -60.273,
+    45.824,
+    3.406
+   ],
+   "size": 5.1967
+  },
+  "TU1-R15-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.0,
+    18.68,
+    2.979,
+    -69.186,
+    32.81,
+    3.406
+   ],
+   "size": 4.7477
+  },
+  "TU1-R15-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.0,
+    8.635,
+    2.979,
+    -71.2,
+    18.68,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.0,
+    -1.41,
+    2.979,
+    -71.2,
+    8.635,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.0,
+    -11.455,
+    2.979,
+    -71.2,
+    -1.41,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R15-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.0,
+    -21.5,
+    2.979,
+    -71.2,
+    -11.455,
+    3.406
+   ],
+   "size": 3.4315
+  },
+  "TU1-R16-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.8,
+    -37.29,
+    3.278,
+    -68.048,
+    -21.5,
+    3.709
+   ],
+   "size": 5.3744
+  },
+  "TU1-R16-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -68.749,
+    -49.18,
+    3.278,
+    -57.168,
+    -36.905,
+    3.709
+   ],
+   "size": 5.3744
+  },
+  "TU1-R16-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -57.598,
+    -54.233,
+    3.278,
+    -42.048,
+    -48.505,
+    3.709
+   ],
+   "size": 5.3744
+  },
+  "TU1-R16-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -42.099,
+    -54.3,
+    3.278,
+    -31.236,
+    -53.434,
+    3.709
+   ],
+   "size": 3.7313
+  },
+  "TU1-R16-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -54.3,
+    3.278,
+    -21.191,
+    -53.5,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -54.3,
+    3.278,
+    -11.146,
+    -53.5,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -54.3,
+    3.278,
+    -1.101,
+    -53.5,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -54.3,
+    3.278,
+    8.944,
+    -53.5,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -54.3,
+    3.278,
+    18.989,
+    -53.5,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -54.3,
+    3.278,
+    29.034,
+    -53.5,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -54.3,
+    3.278,
+    39.079,
+    -53.5,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -54.3,
+    3.278,
+    54.449,
+    -50.228,
+    3.709
+   ],
+   "size": 5.2193
+  },
+  "TU1-R16-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    54.097,
+    -50.946,
+    3.278,
+    66.84,
+    -39.894,
+    3.709
+   ],
+   "size": 5.3744
+  },
+  "TU1-R16-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    66.185,
+    -40.354,
+    3.278,
+    72.601,
+    -25.017,
+    3.709
+   ],
+   "size": 5.3744
+  },
+  "TU1-R16-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    71.806,
+    -25.105,
+    3.278,
+    72.8,
+    -13.657,
+    3.709
+   ],
+   "size": 3.921
+  },
+  "TU1-R16-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    72.0,
+    -13.657,
+    3.278,
+    72.8,
+    -3.612,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    72.0,
+    -3.612,
+    3.278,
+    72.8,
+    6.433,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    72.0,
+    6.433,
+    3.278,
+    72.8,
+    16.478,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    70.996,
+    16.478,
+    3.278,
+    72.8,
+    29.651,
+    3.709
+   ],
+   "size": 4.4777
+  },
+  "TU1-R16-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    63.34,
+    29.452,
+    3.278,
+    71.771,
+    43.939,
+    3.709
+   ],
+   "size": 5.3744
+  },
+  "TU1-R16-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    49.919,
+    43.391,
+    3.278,
+    63.924,
+    52.684,
+    3.709
+   ],
+   "size": 5.3744
+  },
+  "TU1-R16-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    51.924,
+    3.278,
+    50.167,
+    54.3,
+    3.709
+   ],
+   "size": 4.7181
+  },
+  "TU1-R16-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    53.5,
+    3.278,
+    36.259,
+    54.3,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    53.5,
+    3.278,
+    26.214,
+    54.3,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    53.5,
+    3.278,
+    16.169,
+    54.3,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    53.5,
+    3.278,
+    6.124,
+    54.3,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    53.5,
+    3.278,
+    -3.921,
+    54.3,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    53.5,
+    3.278,
+    -13.966,
+    54.3,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    53.5,
+    3.278,
+    -24.011,
+    54.3,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -46.679,
+    52.83,
+    3.278,
+    -34.056,
+    54.3,
+    3.709
+   ],
+   "size": 4.2999
+  },
+  "TU1-R16-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -61.313,
+    45.824,
+    3.278,
+    -46.516,
+    53.613,
+    3.709
+   ],
+   "size": 5.3744
+  },
+  "TU1-R16-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -70.683,
+    32.81,
+    3.278,
+    -60.793,
+    46.432,
+    3.709
+   ],
+   "size": 5.3744
+  },
+  "TU1-R16-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.8,
+    18.68,
+    3.278,
+    -69.935,
+    33.093,
+    3.709
+   ],
+   "size": 4.8862
+  },
+  "TU1-R16-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.8,
+    8.635,
+    3.278,
+    -72.0,
+    18.68,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.8,
+    -1.41,
+    3.278,
+    -72.0,
+    8.635,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.8,
+    -11.455,
+    3.278,
+    -72.0,
+    -1.41,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R16-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.8,
+    -21.5,
+    3.278,
+    -72.0,
+    -11.455,
+    3.709
+   ],
+   "size": 3.4612
+  },
+  "TU1-R17-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -73.6,
+    -37.675,
+    3.582,
+    -68.749,
+    -21.5,
+    4.016
+   ],
+   "size": 5.5524
+  },
+  "TU1-R17-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -69.45,
+    -49.855,
+    3.582,
+    -57.598,
+    -37.29,
+    4.016
+   ],
+   "size": 5.5524
+  },
+  "TU1-R17-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -58.027,
+    -55.031,
+    3.582,
+    -42.099,
+    -49.18,
+    4.016
+   ],
+   "size": 5.5524
+  },
+  "TU1-R17-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -42.151,
+    -55.1,
+    3.582,
+    -31.236,
+    -54.233,
+    4.016
+   ],
+   "size": 3.7798
+  },
+  "TU1-R17-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -55.1,
+    3.582,
+    -21.191,
+    -54.3,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -55.1,
+    3.582,
+    -11.146,
+    -54.3,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -55.1,
+    3.582,
+    -1.101,
+    -54.3,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -55.1,
+    3.582,
+    8.944,
+    -54.3,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -55.1,
+    3.582,
+    18.989,
+    -54.3,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -55.1,
+    3.582,
+    29.034,
+    -54.3,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -55.1,
+    3.582,
+    39.079,
+    -54.3,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -55.1,
+    3.582,
+    54.802,
+    -50.946,
+    4.016
+   ],
+   "size": 5.3847
+  },
+  "TU1-R17-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    54.449,
+    -51.664,
+    3.582,
+    67.495,
+    -40.354,
+    4.016
+   ],
+   "size": 5.5524
+  },
+  "TU1-R17-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    66.84,
+    -40.813,
+    3.582,
+    73.396,
+    -25.105,
+    4.016
+   ],
+   "size": 5.5524
+  },
+  "TU1-R17-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    72.601,
+    -25.192,
+    3.582,
+    73.6,
+    -13.657,
+    4.016
+   ],
+   "size": 3.9839
+  },
+  "TU1-R17-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    72.8,
+    -13.657,
+    3.582,
+    73.6,
+    -3.612,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    72.8,
+    -3.612,
+    3.582,
+    73.6,
+    6.433,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    72.8,
+    6.433,
+    3.582,
+    73.6,
+    16.478,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    71.771,
+    16.478,
+    3.582,
+    73.6,
+    29.849,
+    4.016
+   ],
+   "size": 4.5836
+  },
+  "TU1-R17-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    63.924,
+    29.651,
+    3.582,
+    72.546,
+    44.486,
+    4.016
+   ],
+   "size": 5.5524
+  },
+  "TU1-R17-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    50.167,
+    43.939,
+    3.582,
+    64.507,
+    53.445,
+    4.016
+   ],
+   "size": 5.5524
+  },
+  "TU1-R17-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    52.684,
+    3.582,
+    50.415,
+    55.1,
+    4.016
+   ],
+   "size": 4.8431
+  },
+  "TU1-R17-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    54.3,
+    3.582,
+    36.259,
+    55.1,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    54.3,
+    3.582,
+    26.214,
+    55.1,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    54.3,
+    3.582,
+    16.169,
+    55.1,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    54.3,
+    3.582,
+    6.124,
+    55.1,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    54.3,
+    3.582,
+    -3.921,
+    55.1,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    54.3,
+    3.582,
+    -13.966,
+    55.1,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    54.3,
+    3.582,
+    -24.011,
+    55.1,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -46.842,
+    53.613,
+    3.582,
+    -34.056,
+    55.1,
+    4.016
+   ],
+   "size": 4.3919
+  },
+  "TU1-R17-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -61.833,
+    46.432,
+    3.582,
+    -46.679,
+    54.396,
+    4.016
+   ],
+   "size": 5.5524
+  },
+  "TU1-R17-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -71.431,
+    33.093,
+    3.582,
+    -61.313,
+    47.04,
+    4.016
+   ],
+   "size": 5.5524
+  },
+  "TU1-R17-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -73.6,
+    18.68,
+    3.582,
+    -70.683,
+    33.375,
+    4.016
+   ],
+   "size": 5.0246
+  },
+  "TU1-R17-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -73.6,
+    8.635,
+    3.582,
+    -72.8,
+    18.68,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -73.6,
+    -1.41,
+    3.582,
+    -72.8,
+    8.635,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -73.6,
+    -11.455,
+    3.582,
+    -72.8,
+    -1.41,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R17-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -73.6,
+    -21.5,
+    3.582,
+    -72.8,
+    -11.455,
+    4.016
+   ],
+   "size": 3.4897
+  },
+  "TU1-R18-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -74.4,
+    -38.06,
+    3.89,
+    -69.45,
+    -21.5,
+    4.327
+   ],
+   "size": 5.7309
+  },
+  "TU1-R18-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -70.152,
+    -50.53,
+    3.89,
+    -58.027,
+    -37.675,
+    4.327
+   ],
+   "size": 5.7309
+  },
+  "TU1-R18-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -58.456,
+    -55.829,
+    3.89,
+    -42.151,
+    -49.855,
+    4.327
+   ],
+   "size": 5.7309
+  },
+  "TU1-R18-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -42.202,
+    -55.9,
+    3.89,
+    -31.236,
+    -55.031,
+    4.327
+   ],
+   "size": 3.8274
+  },
+  "TU1-R18-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -55.9,
+    3.89,
+    -21.191,
+    -55.1,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -55.9,
+    3.89,
+    -11.146,
+    -55.1,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -55.9,
+    3.89,
+    -1.101,
+    -55.1,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -55.9,
+    3.89,
+    8.944,
+    -55.1,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -55.9,
+    3.89,
+    18.989,
+    -55.1,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -55.9,
+    3.89,
+    29.034,
+    -55.1,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -55.9,
+    3.89,
+    39.079,
+    -55.1,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -55.9,
+    3.89,
+    55.154,
+    -51.664,
+    4.327
+   ],
+   "size": 5.5504
+  },
+  "TU1-R18-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    54.802,
+    -52.382,
+    3.89,
+    68.149,
+    -40.813,
+    4.327
+   ],
+   "size": 5.7309
+  },
+  "TU1-R18-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    67.495,
+    -41.273,
+    3.89,
+    74.192,
+    -25.192,
+    4.327
+   ],
+   "size": 5.7309
+  },
+  "TU1-R18-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    73.396,
+    -25.28,
+    3.89,
+    74.4,
+    -13.657,
+    4.327
+   ],
+   "size": 4.046
+  },
+  "TU1-R18-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    73.6,
+    -13.657,
+    3.89,
+    74.4,
+    -3.612,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    73.6,
+    -3.612,
+    3.89,
+    74.4,
+    6.433,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    73.6,
+    6.433,
+    3.89,
+    74.4,
+    16.478,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    72.546,
+    16.478,
+    3.89,
+    74.4,
+    30.048,
+    4.327
+   ],
+   "size": 4.6892
+  },
+  "TU1-R18-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    64.507,
+    29.849,
+    3.89,
+    73.321,
+    45.033,
+    4.327
+   ],
+   "size": 5.7309
+  },
+  "TU1-R18-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    50.415,
+    44.486,
+    3.89,
+    65.091,
+    54.206,
+    4.327
+   ],
+   "size": 5.7309
+  },
+  "TU1-R18-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    53.445,
+    3.89,
+    50.663,
+    55.9,
+    4.327
+   ],
+   "size": 4.968
+  },
+  "TU1-R18-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    55.1,
+    3.89,
+    36.259,
+    55.9,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    55.1,
+    3.89,
+    26.214,
+    55.9,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    55.1,
+    3.89,
+    16.169,
+    55.9,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    55.1,
+    3.89,
+    6.124,
+    55.9,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    55.1,
+    3.89,
+    -3.921,
+    55.9,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    55.1,
+    3.89,
+    -13.966,
+    55.9,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    55.1,
+    3.89,
+    -24.011,
+    55.9,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -47.005,
+    54.396,
+    3.89,
+    -34.056,
+    55.9,
+    4.327
+   ],
+   "size": 4.4834
+  },
+  "TU1-R18-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -62.353,
+    47.04,
+    3.89,
+    -46.842,
+    55.179,
+    4.327
+   ],
+   "size": 5.7309
+  },
+  "TU1-R18-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.18,
+    33.375,
+    3.89,
+    -61.833,
+    47.648,
+    4.327
+   ],
+   "size": 5.7309
+  },
+  "TU1-R18-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -74.4,
+    18.68,
+    3.89,
+    -71.431,
+    33.658,
+    4.327
+   ],
+   "size": 5.1631
+  },
+  "TU1-R18-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -74.4,
+    8.635,
+    3.89,
+    -73.6,
+    18.68,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -74.4,
+    -1.41,
+    3.89,
+    -73.6,
+    8.635,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -74.4,
+    -11.455,
+    3.89,
+    -73.6,
+    -1.41,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R18-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -74.4,
+    -21.5,
+    3.89,
+    -73.6,
+    -11.455,
+    4.327
+   ],
+   "size": 3.5171
+  },
+  "TU1-R19-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -75.2,
+    -38.445,
+    4.201,
+    -70.152,
+    -21.5,
+    4.642
+   ],
+   "size": 5.9098
+  },
+  "TU1-R19-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -70.853,
+    -51.205,
+    4.201,
+    -58.456,
+    -38.06,
+    4.642
+   ],
+   "size": 5.9098
+  },
+  "TU1-R19-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -58.885,
+    -56.628,
+    4.201,
+    -42.202,
+    -50.53,
+    4.642
+   ],
+   "size": 5.9098
+  },
+  "TU1-R19-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -42.253,
+    -56.7,
+    4.201,
+    -31.236,
+    -55.829,
+    4.642
+   ],
+   "size": 3.8743
+  },
+  "TU1-R19-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -56.7,
+    4.201,
+    -21.191,
+    -55.9,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -56.7,
+    4.201,
+    -11.146,
+    -55.9,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -56.7,
+    4.201,
+    -1.101,
+    -55.9,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -56.7,
+    4.201,
+    8.944,
+    -55.9,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -56.7,
+    4.201,
+    18.989,
+    -55.9,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -56.7,
+    4.201,
+    29.034,
+    -55.9,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -56.7,
+    4.201,
+    39.079,
+    -55.9,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -56.7,
+    4.201,
+    55.506,
+    -52.382,
+    4.642
+   ],
+   "size": 5.7164
+  },
+  "TU1-R19-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    55.154,
+    -53.1,
+    4.201,
+    68.804,
+    -41.273,
+    4.642
+   ],
+   "size": 5.9098
+  },
+  "TU1-R19-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    68.149,
+    -41.733,
+    4.201,
+    74.987,
+    -25.28,
+    4.642
+   ],
+   "size": 5.9098
+  },
+  "TU1-R19-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    74.192,
+    -25.368,
+    4.201,
+    75.2,
+    -13.657,
+    4.642
+   ],
+   "size": 4.1074
+  },
+  "TU1-R19-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    74.4,
+    -13.657,
+    4.201,
+    75.2,
+    -3.612,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    74.4,
+    -3.612,
+    4.201,
+    75.2,
+    6.433,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    74.4,
+    6.433,
+    4.201,
+    75.2,
+    16.478,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    73.321,
+    16.478,
+    4.201,
+    75.2,
+    30.247,
+    4.642
+   ],
+   "size": 4.7946
+  },
+  "TU1-R19-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    65.091,
+    30.048,
+    4.201,
+    74.096,
+    45.58,
+    4.642
+   ],
+   "size": 5.9098
+  },
+  "TU1-R19-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    50.663,
+    45.033,
+    4.201,
+    65.674,
+    54.966,
+    4.642
+   ],
+   "size": 5.9098
+  },
+  "TU1-R19-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    54.206,
+    4.201,
+    50.911,
+    56.7,
+    4.642
+   ],
+   "size": 5.0928
+  },
+  "TU1-R19-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    55.9,
+    4.201,
+    36.259,
+    56.7,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    55.9,
+    4.201,
+    26.214,
+    56.7,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    55.9,
+    4.201,
+    16.169,
+    56.7,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    55.9,
+    4.201,
+    6.124,
+    56.7,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    55.9,
+    4.201,
+    -3.921,
+    56.7,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    55.9,
+    4.201,
+    -13.966,
+    56.7,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    55.9,
+    4.201,
+    -24.011,
+    56.7,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -47.168,
+    55.179,
+    4.201,
+    -34.056,
+    56.7,
+    4.642
+   ],
+   "size": 4.5746
+  },
+  "TU1-R19-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -62.873,
+    47.648,
+    4.201,
+    -47.005,
+    55.963,
+    4.642
+   ],
+   "size": 5.9098
+  },
+  "TU1-R19-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.928,
+    33.658,
+    4.201,
+    -62.353,
+    48.256,
+    4.642
+   ],
+   "size": 5.9098
+  },
+  "TU1-R19-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -75.2,
+    18.68,
+    4.201,
+    -72.18,
+    33.941,
+    4.642
+   ],
+   "size": 5.3017
+  },
+  "TU1-R19-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -75.2,
+    8.635,
+    4.201,
+    -74.4,
+    18.68,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -75.2,
+    -1.41,
+    4.201,
+    -74.4,
+    8.635,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -75.2,
+    -11.455,
+    4.201,
+    -74.4,
+    -1.41,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R19-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -75.2,
+    -21.5,
+    4.201,
+    -74.4,
+    -11.455,
+    4.642
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B001": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -76.0,
+    -38.83,
+    4.522,
+    -70.853,
+    -21.5,
+    4.963
+   ],
+   "size": 6.0457
+  },
+  "TU1-R20-B002": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -71.554,
+    -51.88,
+    4.522,
+    -58.885,
+    -38.445,
+    4.963
+   ],
+   "size": 6.0457
+  },
+  "TU1-R20-B003": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -59.314,
+    -57.426,
+    4.522,
+    -42.253,
+    -51.205,
+    4.963
+   ],
+   "size": 6.0457
+  },
+  "TU1-R20-B004": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -42.304,
+    -57.5,
+    4.522,
+    -31.236,
+    -56.628,
+    4.963
+   ],
+   "size": 3.8923
+  },
+  "TU1-R20-B005": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -31.236,
+    -57.5,
+    4.522,
+    -21.191,
+    -56.7,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B006": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -21.191,
+    -57.5,
+    4.522,
+    -11.146,
+    -56.7,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B007": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -11.146,
+    -57.5,
+    4.522,
+    -1.101,
+    -56.7,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B008": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -1.101,
+    -57.5,
+    4.522,
+    8.944,
+    -56.7,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B009": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    8.944,
+    -57.5,
+    4.522,
+    18.989,
+    -56.7,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B010": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    18.989,
+    -57.5,
+    4.522,
+    29.034,
+    -56.7,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B011": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    29.034,
+    -57.5,
+    4.522,
+    39.079,
+    -56.7,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B012": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    39.079,
+    -57.5,
+    4.522,
+    55.859,
+    -53.1,
+    4.963
+   ],
+   "size": 5.8408
+  },
+  "TU1-R20-B013": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    55.506,
+    -53.819,
+    4.522,
+    69.458,
+    -41.733,
+    4.963
+   ],
+   "size": 6.0457
+  },
+  "TU1-R20-B014": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    68.804,
+    -42.193,
+    4.522,
+    75.782,
+    -25.368,
+    4.963
+   ],
+   "size": 6.0457
+  },
+  "TU1-R20-B015": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    74.987,
+    -25.456,
+    4.522,
+    76.0,
+    -13.657,
+    4.963
+   ],
+   "size": 4.1384
+  },
+  "TU1-R20-B016": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    75.2,
+    -13.657,
+    4.522,
+    76.0,
+    -3.612,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B017": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    75.2,
+    -3.612,
+    4.522,
+    76.0,
+    6.433,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B018": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    75.2,
+    6.433,
+    4.522,
+    76.0,
+    16.478,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B019": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    74.096,
+    16.478,
+    4.522,
+    76.0,
+    30.446,
+    4.963
+   ],
+   "size": 4.8647
+  },
+  "TU1-R20-B020": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    65.674,
+    30.247,
+    4.522,
+    74.871,
+    46.128,
+    4.963
+   ],
+   "size": 6.0457
+  },
+  "TU1-R20-B021": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    50.911,
+    45.58,
+    4.522,
+    66.258,
+    55.727,
+    4.963
+   ],
+   "size": 6.0457
+  },
+  "TU1-R20-B022": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    36.259,
+    54.966,
+    4.522,
+    51.159,
+    57.5,
+    4.963
+   ],
+   "size": 5.1803
+  },
+  "TU1-R20-B023": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    26.214,
+    56.7,
+    4.522,
+    36.259,
+    57.5,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B024": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    16.169,
+    56.7,
+    4.522,
+    26.214,
+    57.5,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B025": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    6.124,
+    56.7,
+    4.522,
+    16.169,
+    57.5,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B026": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -3.921,
+    56.7,
+    4.522,
+    6.124,
+    57.5,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B027": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -13.966,
+    56.7,
+    4.522,
+    -3.921,
+    57.5,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B028": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -24.011,
+    56.7,
+    4.522,
+    -13.966,
+    57.5,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B029": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -34.056,
+    56.7,
+    4.522,
+    -24.011,
+    57.5,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B030": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -47.33,
+    55.963,
+    4.522,
+    -34.056,
+    57.5,
+    4.963
+   ],
+   "size": 4.6321
+  },
+  "TU1-R20-B031": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -63.392,
+    48.256,
+    4.522,
+    -47.168,
+    56.746,
+    4.963
+   ],
+   "size": 6.0457
+  },
+  "TU1-R20-B032": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -73.677,
+    33.941,
+    4.522,
+    -62.873,
+    48.864,
+    4.963
+   ],
+   "size": 6.0457
+  },
+  "TU1-R20-B033": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -76.0,
+    18.68,
+    4.522,
+    -72.928,
+    34.224,
+    4.963
+   ],
+   "size": 5.4014
+  },
+  "TU1-R20-B034": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -76.0,
+    8.635,
+    4.522,
+    -75.2,
+    18.68,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B035": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -76.0,
+    -1.41,
+    4.522,
+    -75.2,
+    8.635,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B036": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -76.0,
+    -11.455,
+    4.522,
+    -75.2,
+    -1.41,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "TU1-R20-B037": {
+   "script": "bowl",
+   "category": "terrace units",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -76.0,
+    -21.5,
+    4.522,
+    -75.2,
+    -11.455,
+    4.963
+   ],
+   "size": 3.5436
+  },
+  "PITCH": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -55.5,
+    -37.0,
+    -0.3,
+    55.5,
+    37.0,
+    0.0
+   ],
+   "size": 2464.2
+  },
+  "PL-001": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    114.789,
+    0.0,
+    0.0,
+    130.0,
+    37.284,
+    12.0
+   ],
+   "size": 5089.9607
+  },
+  "PL-002": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    104.844,
+    33.887,
+    0.0,
+    126.298,
+    64.542,
+    12.0
+   ],
+   "size": 4013.5954
+  },
+  "PL-003": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    88.402,
+    58.681,
+    0.0,
+    115.315,
+    86.153,
+    12.0
+   ],
+   "size": 3825.1976
+  },
+  "PL-004": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    65.979,
+    78.202,
+    0.0,
+    97.39,
+    102.009,
+    12.0
+   ],
+   "size": 3922.0749
+  },
+  "PL-005": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    37.912,
+    92.249,
+    0.0,
+    72.96,
+    111.725,
+    12.0
+   ],
+   "size": 4311.7888
+  },
+  "PL-006": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    0.0,
+    100.498,
+    0.0,
+    42.148,
+    115.0,
+    12.0
+   ],
+   "size": 5652.2104
+  },
+  "PL-007": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -42.148,
+    100.498,
+    0.0,
+    0.0,
+    115.0,
+    12.0
+   ],
+   "size": 5652.2104
+  },
+  "PL-008": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.96,
+    92.249,
+    0.0,
+    -37.912,
+    111.725,
+    12.0
+   ],
+   "size": 4311.7888
+  },
+  "PL-009": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -97.39,
+    78.202,
+    0.0,
+    -65.979,
+    102.009,
+    12.0
+   ],
+   "size": 3922.0749
+  },
+  "PL-010": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -115.315,
+    58.681,
+    0.0,
+    -88.402,
+    86.153,
+    12.0
+   ],
+   "size": 3825.1976
+  },
+  "PL-011": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -126.298,
+    33.887,
+    0.0,
+    -104.844,
+    64.542,
+    12.0
+   ],
+   "size": 4013.5954
+  },
+  "PL-012": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -130.0,
+    0.0,
+    0.0,
+    -114.789,
+    37.284,
+    12.0
+   ],
+   "size": 5089.9607
+  },
+  "PL-013": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -130.0,
+    -37.284,
+    0.0,
+    -114.789,
+    0.0,
+    12.0
+   ],
+   "size": 5089.9607
+  },
+  "PL-014": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -126.298,
+    -64.542,
+    0.0,
+    -104.844,
+    -33.887,
+    12.0
+   ],
+   "size": 4013.5954
+  },
+  "PL-015": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -115.315,
+    -86.153,
+    0.0,
+    -88.402,
+    -58.681,
+    12.0
+   ],
+   "size": 3825.1976
+  },
+  "PL-016": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -97.39,
+    -102.009,
+    0.0,
+    -65.979,
+    -78.202,
+    12.0
+   ],
+   "size": 3922.0749
+  },
+  "PL-017": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.96,
+    -111.725,
+    0.0,
+    -37.912,
+    -92.249,
+    12.0
+   ],
+   "size": 4311.7888
+  },
+  "PL-018": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -42.148,
+    -115.0,
+    0.0,
+    -0.0,
+    -100.498,
+    12.0
+   ],
+   "size": 5652.2104
+  },
+  "PL-019": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -0.0,
+    -115.0,
+    0.0,
+    42.148,
+    -100.498,
+    12.0
+   ],
+   "size": 5652.2104
+  },
+  "PL-020": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    37.912,
+    -111.725,
+    0.0,
+    72.96,
+    -92.249,
+    12.0
+   ],
+   "size": 4311.7888
+  },
+  "PL-021": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    65.979,
+    -102.009,
+    0.0,
+    97.39,
+    -78.202,
+    12.0
+   ],
+   "size": 3922.0749
+  },
+  "PL-022": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    88.402,
+    -86.153,
+    0.0,
+    115.315,
+    -58.681,
+    12.0
+   ],
+   "size": 3825.1976
+  },
+  "PL-023": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    104.844,
+    -64.542,
+    0.0,
+    126.298,
+    -33.887,
+    12.0
+   ],
+   "size": 4013.5954
+  },
+  "PL-024": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    114.789,
+    -37.284,
+    0.0,
+    130.0,
+    -0.0,
+    12.0
+   ],
+   "size": 5089.9607
+  },
+  "ES-RAMP": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -30.0,
+    -207.0,
+    -0.496,
+    30.0,
+    -116.934,
+    12.0
+   ],
+   "size": 2723.8943
+  }
+ }
+}

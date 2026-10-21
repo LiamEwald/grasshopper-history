@@ -7,9 +7,9 @@
 # gh-input: env_b float 115 90 140
 # gh-input: env_p float 2.4 2 4
 # gh-input: env_z0 float 12 0 20
-# gh-input: esp_on int 0 0 1
-# gh-input: esp_w float 60 30 120
-# gh-input: esp_l float 120 60 300
+# gh-input: esp_on int 1 0 1
+# gh-input: esp_w float 80 30 120
+# gh-input: esp_l float 100 60 300
 # gh-input: garages int 0 0 4
 # gh-input: garage_levels int 4 1 6
 # The pitch (PITCH, 300 mm build-up, for reference), the concrete plinth ring under the envelope

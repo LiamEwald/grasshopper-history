@@ -138,8 +138,11 @@ main {
   background: var(--select);
 }
 
-.row.dim {
-  opacity: 0.35;
+/* A level filter dims the text of other versions; the tree lines and dots stay as they are. */
+.row.dim .title,
+.row.dim .level,
+.row.dim .when {
+  opacity: 0.3;
 }
 
 .lines {

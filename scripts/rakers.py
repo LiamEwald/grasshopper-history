@@ -11,14 +11,14 @@
 # gh-input: c2 float 0.09 0.04 0.15
 # gh-input: c3 float 0.06 0.04 0.15
 # gh-input: first_h float 1.8 0.6 3.0
-# gh-input: rows1 int 20 0 40
+# gh-input: rows1 int 21 0 40
 # gh-input: rows2 int 22 0 40
 # gh-input: rows3 int 16 0 40
 # gh-input: gap2 float 2 -8 12
 # gh-input: lift2 float 2.5 1 12
 # gh-input: gap3 float 2 -8 12
 # gh-input: lift3 float 2.5 1 12
-# gh-input: raker_d float 1.4 0.6 2.0
+# gh-input: raker_d float 1.5 0.6 2.0
 # gh-input: col_b float 0.9 0.5 1.2
 # Reinforced-concrete frames under the terraces, one per bay line: for every tier a raker beam
 # (500 mm wide, raker_d deep) following the underside of the terrace units from the first to the

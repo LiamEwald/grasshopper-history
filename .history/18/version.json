@@ -1,0 +1,450 @@
+{
+ "n": 18,
+ "title": "Mass 44 m, roof allowance",
+ "summary": "Room for a roof structure above the stands. Mass height from 40 m to 44 m.",
+ "prompt": "",
+ "author": "Jonas",
+ "time": "2026-10-21T19:12:23-04:00",
+ "parents": [
+  17
+ ],
+ "level": "massing",
+ "levels": [
+  "massing"
+ ],
+ "changes": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "M-RING"
+  ]
+ },
+ "numbers": {
+  "height": 44.0,
+  "floor_area": 0.0,
+  "footprint": 0.0,
+  "volumes": {
+   "concrete": 109723.51,
+   "massing": 1566934.95
+  },
+  "stats": {}
+ },
+ "values": {
+  "m_type": 0.0,
+  "m_a": 130.0,
+  "m_b": 115.0,
+  "m_p": 2.4,
+  "m_h": 44.0,
+  "m_flare": 0.04,
+  "m_open": 0.62,
+  "pitch_l": 105.0,
+  "pitch_w": 68.0,
+  "env_a": 130.0,
+  "env_b": 115.0,
+  "env_p": 2.4,
+  "env_z0": 12.0,
+  "esp_on": 0.0,
+  "esp_w": 60.0,
+  "esp_l": 120.0,
+  "garages": 0.0,
+  "garage_levels": 4.0
+ },
+ "errors": {},
+ "warnings": [],
+ "build_error": null,
+ "picture": "picture.webp",
+ "inside": null,
+ "side": "sw",
+ "elements": {
+  "M-RING": {
+   "script": "massing",
+   "category": "massing studies",
+   "level": "massing",
+   "material": "massing",
+   "box": [
+    -135.2,
+    -119.6,
+    0.0,
+    135.2,
+    119.6,
+    44.0
+   ],
+   "size": 1566934.9494
+  },
+  "PITCH": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -55.5,
+    -37.0,
+    -0.3,
+    55.5,
+    37.0,
+    0.0
+   ],
+   "size": 2464.2
+  },
+  "PL-001": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    114.789,
+    0.0,
+    0.0,
+    130.0,
+    37.284,
+    12.0
+   ],
+   "size": 5089.9607
+  },
+  "PL-002": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    104.844,
+    33.887,
+    0.0,
+    126.298,
+    64.542,
+    12.0
+   ],
+   "size": 4013.5954
+  },
+  "PL-003": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    88.402,
+    58.681,
+    0.0,
+    115.315,
+    86.153,
+    12.0
+   ],
+   "size": 3825.1976
+  },
+  "PL-004": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    65.979,
+    78.202,
+    0.0,
+    97.39,
+    102.009,
+    12.0
+   ],
+   "size": 3922.0749
+  },
+  "PL-005": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    37.912,
+    92.249,
+    0.0,
+    72.96,
+    111.725,
+    12.0
+   ],
+   "size": 4311.7888
+  },
+  "PL-006": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    0.0,
+    100.498,
+    0.0,
+    42.148,
+    115.0,
+    12.0
+   ],
+   "size": 5652.2104
+  },
+  "PL-007": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -42.148,
+    100.498,
+    0.0,
+    0.0,
+    115.0,
+    12.0
+   ],
+   "size": 5652.2104
+  },
+  "PL-008": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.96,
+    92.249,
+    0.0,
+    -37.912,
+    111.725,
+    12.0
+   ],
+   "size": 4311.7888
+  },
+  "PL-009": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -97.39,
+    78.202,
+    0.0,
+    -65.979,
+    102.009,
+    12.0
+   ],
+   "size": 3922.0749
+  },
+  "PL-010": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -115.315,
+    58.681,
+    0.0,
+    -88.402,
+    86.153,
+    12.0
+   ],
+   "size": 3825.1976
+  },
+  "PL-011": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -126.298,
+    33.887,
+    0.0,
+    -104.844,
+    64.542,
+    12.0
+   ],
+   "size": 4013.5954
+  },
+  "PL-012": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -130.0,
+    0.0,
+    0.0,
+    -114.789,
+    37.284,
+    12.0
+   ],
+   "size": 5089.9607
+  },
+  "PL-013": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -130.0,
+    -37.284,
+    0.0,
+    -114.789,
+    0.0,
+    12.0
+   ],
+   "size": 5089.9607
+  },
+  "PL-014": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -126.298,
+    -64.542,
+    0.0,
+    -104.844,
+    -33.887,
+    12.0
+   ],
+   "size": 4013.5954
+  },
+  "PL-015": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -115.315,
+    -86.153,
+    0.0,
+    -88.402,
+    -58.681,
+    12.0
+   ],
+   "size": 3825.1976
+  },
+  "PL-016": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -97.39,
+    -102.009,
+    0.0,
+    -65.979,
+    -78.202,
+    12.0
+   ],
+   "size": 3922.0749
+  },
+  "PL-017": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -72.96,
+    -111.725,
+    0.0,
+    -37.912,
+    -92.249,
+    12.0
+   ],
+   "size": 4311.7888
+  },
+  "PL-018": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -42.148,
+    -115.0,
+    0.0,
+    -0.0,
+    -100.498,
+    12.0
+   ],
+   "size": 5652.2104
+  },
+  "PL-019": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    -0.0,
+    -115.0,
+    0.0,
+    42.148,
+    -100.498,
+    12.0
+   ],
+   "size": 5652.2104
+  },
+  "PL-020": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    37.912,
+    -111.725,
+    0.0,
+    72.96,
+    -92.249,
+    12.0
+   ],
+   "size": 4311.7888
+  },
+  "PL-021": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    65.979,
+    -102.009,
+    0.0,
+    97.39,
+    -78.202,
+    12.0
+   ],
+   "size": 3922.0749
+  },
+  "PL-022": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    88.402,
+    -86.153,
+    0.0,
+    115.315,
+    -58.681,
+    12.0
+   ],
+   "size": 3825.1976
+  },
+  "PL-023": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    104.844,
+    -64.542,
+    0.0,
+    126.298,
+    -33.887,
+    12.0
+   ],
+   "size": 4013.5954
+  },
+  "PL-024": {
+   "script": "site",
+   "category": "plinth and esplanade",
+   "level": "structure",
+   "material": "concrete",
+   "box": [
+    114.789,
+    -37.284,
+    0.0,
+    130.0,
+    -0.0,
+    12.0
+   ],
+   "size": 5089.9607
+  }
+ }
+}

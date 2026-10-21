@@ -1,0 +1,14 @@
+node_modules/
+dist/
+__pycache__/
+model.gh
+model_*.gh
+.history/tmp/
+.history/pending.json
+.history/prompt.json
+.history/build.json
+.history/snapshot.json
+.history/combine-request*.json
+app/public/data/
+.vercel
+demo-run.log

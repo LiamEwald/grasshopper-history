@@ -1,0 +1,12 @@
+{
+  "name": "grasshopper-history-server",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "export": "node export.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

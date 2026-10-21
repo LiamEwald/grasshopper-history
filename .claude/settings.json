@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "py tools/on_prompt.py" } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "py tools/autosave.py", "timeout": 120 } ] }
+    ]
+  }
+}

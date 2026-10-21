@@ -305,8 +305,7 @@ def main():
          "Handoff: the upper tier was over 35°; a 60 mm C-value flattens it.", c3=0.06)
     s.do("struct", JONAS, "Concourses 10 m deep", "", conc_w=10)
     s.do("bowl", LIAM, "First row raised",
-         "Raised so the lower tier is steeper than usual and still sees the touchline and goal line, as ArupSport "
-         "describes for the built stadium.", first_h=1.8)
+         "Raised so the lower tier is steeper than usual and still sees the touchline and goal line.", first_h=1.8)
     s.do("struct", JONAS, "Columns 900 mm", "", col_b=0.9)
     s.do("bowl", LIAM, "Tier 2 two rows deeper", "", rows2=22)
     s.heads["main"] = s.heads["bowl"]

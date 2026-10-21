@@ -1,4 +1,5 @@
 // The side panel: everything about the selected version lives here and only here.
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { AnchorButton, Button, Callout, HTMLTable, Tooltip } from '@blueprintjs/core'
 import Code from './Code'
 import type { Version } from './data'
@@ -98,7 +99,58 @@ function Changes({ v }: { v: Version }) {
   )
 }
 
+// Full-screen viewer for a version's pictures: arrow keys or swipe between them, Esc, the close
+// button or a click outside closes it.
+function Viewer(props: { v: Version; pics: { file: string; label: string }[]; at: number; onClose: () => void }) {
+  const { v, pics, onClose } = props
+  const [i, setI] = useState(props.at)
+  const touch = useRef<number | null>(null)
+  const step = useCallback((d: number) => setI((k) => (k + d + pics.length) % pics.length), [pics.length])
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose()
+      else if (e.key === 'ArrowRight') step(1)
+      else if (e.key === 'ArrowLeft') step(-1)
+      else return
+      e.preventDefault()
+      e.stopPropagation()
+    }
+    window.addEventListener('keydown', onKey, true)
+    return () => window.removeEventListener('keydown', onKey, true)
+  }, [onClose, step])
+  const p = pics[i]
+  return (
+    <div
+      className="viewer"
+      role="dialog"
+      aria-label={`${p.label}: ${v.title}`}
+      onClick={onClose}
+      onTouchStart={(e) => (touch.current = e.touches[0].clientX)}
+      onTouchEnd={(e) => {
+        if (touch.current === null) return
+        const dx = e.changedTouches[0].clientX - touch.current
+        touch.current = null
+        if (Math.abs(dx) > 40) step(dx < 0 ? 1 : -1)
+      }}
+    >
+      <Button className="viewer-close" variant="minimal" icon="cross" aria-label="Close" onClick={onClose} />
+      <img src={pictureUrl(v, p.file)} alt={`${p.label}: ${v.title}`} onClick={(e) => e.stopPropagation()} />
+      <div className="viewer-caption" onClick={(e) => e.stopPropagation()}>
+        #{v.n} {v.title} · {p.label}
+        {pics.length > 1 && (
+          <span className="viewer-nav">
+            <Button variant="minimal" icon="chevron-left" aria-label="Previous picture" onClick={() => step(-1)} />
+            {i + 1} / {pics.length}
+            <Button variant="minimal" icon="chevron-right" aria-label="Next picture" onClick={() => step(1)} />
+          </span>
+        )}
+      </div>
+    </div>
+  )
+}
+
 function Pictures({ v }: { v: Version }) {
+  const [open, setOpen] = useState<number | null>(null)
   const pics = [
     v.picture && { file: v.picture, label: 'Exterior' },
     v.inside && { file: v.inside, label: 'Inside view: envelope and roof hidden' },
@@ -106,14 +158,15 @@ function Pictures({ v }: { v: Version }) {
   if (!pics.length) return <p className="muted">No picture: the model did not build.</p>
   return (
     <div className="pictures">
-      {pics.map((p) => (
+      {pics.map((p, k) => (
         <figure key={p.file}>
-          <a href={pictureUrl(v, p.file)} target="_blank" rel="noreferrer">
+          <button type="button" className="picture-button" onClick={() => setOpen(k)} aria-label={`Open ${p.label} full screen`}>
             <img src={pictureUrl(v, p.file)} alt={`${p.label}: ${v.title}`} />
-          </a>
+          </button>
           {pics.length > 1 && <figcaption>{p.label}</figcaption>}
         </figure>
       ))}
+      {open !== null && <Viewer v={v} pics={pics} at={open} onClose={() => setOpen(null)} />}
     </div>
   )
 }

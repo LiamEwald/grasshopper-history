@@ -56,11 +56,11 @@ The rules Claude follows when it models are in [CLAUDE.md](CLAUDE.md).
 ## Demo
 
 `py demo/run.py` builds the demo history from an empty `.history/`, through the real
-pipeline: about 90 versions of a football stadium by three fictional authors (Liam, Maya,
+pipeline: 86 versions of a football stadium by three fictional authors (Liam, Maya,
 Jonas). It starts with rough massing studies, one branch per person, then runs in parallel
 phases where each person owns one branch (bowl, structure and site; envelope, roof and rooms;
-services and lighting), combined at the end of each phase, through to the 2014 capacity
-expansion and the 2015 LED facade. A step on a colleague's branch is titled as a handoff.
+services and lighting), combined at the end of each phase, through to more seats and LED
+facade lighting. A step on a colleague's branch is titled as a handoff.
 
 It is a reconstruction in the manner of the Allianz Arena, Munich (Herzog & de Meuron with
 ArupSport, 2002-2005), not the architects' design process. What it follows from the published

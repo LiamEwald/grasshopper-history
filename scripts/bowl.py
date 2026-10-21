@@ -12,8 +12,8 @@
 # gh-input: c3 float 0.09 0.04 0.15
 # gh-input: first_h float 1.2 0.6 3.0
 # gh-input: rows1 int 20 0 40
-# gh-input: rows2 int 20 0 40
-# gh-input: rows3 int 16 0 40
+# gh-input: rows2 int 0 0 40
+# gh-input: rows3 int 0 0 40
 # gh-input: gap2 float 2 -8 12
 # gh-input: lift2 float 6 1 12
 # gh-input: gap3 float 2 -8 12

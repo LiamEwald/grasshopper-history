@@ -1,7 +1,7 @@
 # category: massing studies
 # level: massing
 # material: massing
-# gh-input: m_type int 3 0 3
+# gh-input: m_type int 2 0 3
 # gh-input: m_a float 130 80 160
 # gh-input: m_b float 115 80 160
 # gh-input: m_p float 2 2 6

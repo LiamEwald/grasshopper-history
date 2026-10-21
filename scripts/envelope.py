@@ -13,7 +13,7 @@
 # gh-input: env_div int 192 48 240
 # gh-input: rings_f int 10 4 16
 # gh-input: rings_r int 21 0 30
-# gh-input: env_on int 1 0 3
+# gh-input: env_on int 3 0 3
 # Rhomboid ETFE cushions on the envelope. The envelope runs from the plinth at env_z0 up the
 # facade to the rim at env_h, bulging outwards by `bulge` at mid-height, and over the roof to its
 # inner edge `cant` in from the rim (the surface the roof trusses follow). It is divided by env_div

@@ -14,7 +14,7 @@
 # gh-input: env_div int 192 48 240
 # gh-input: rings_f int 10 4 16
 # gh-input: rings_r int 21 0 30
-# gh-input: env_on int 1 0 3
+# gh-input: env_on int 3 0 3
 # Steel substructure the cushions are clamped to: a ring transom on every envelope ring
 # (TR-04) and the two families of diagonal lines that form the rhomboids (DA-012, DB-012),
 # 200 mm members, over the parts of the envelope that have cushions (env_on as in envelope.py).

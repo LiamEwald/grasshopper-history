@@ -9,7 +9,7 @@
 # gh-input: tread float 0.8 0.7 1.0
 # gh-input: c_value float 0.09 0.04 0.15
 # gh-input: c2 float 0.09 0.04 0.15
-# gh-input: c3 float 0.09 0.04 0.15
+# gh-input: c3 float 0.06 0.04 0.15
 # gh-input: first_h float 1.2 0.6 3.0
 # gh-input: rows1 int 20 0 40
 # gh-input: rows2 int 20 0 40

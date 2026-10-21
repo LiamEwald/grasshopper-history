@@ -15,7 +15,7 @@
 # gh-input: rings_f int 10 4 16
 # gh-input: flood_n int 200 0 400
 # gh-input: facade_rings int 12 0 16
-# gh-input: led int 0 0 1
+# gh-input: led int 1 0 1
 # Floodlights: flood_n fittings (1.2 x 0.6 x 0.6 m) along the bottom chord at the roof's inner
 # edge (FL-012). Facade lighting: luminaire strips along facade_rings facade rings behind the
 # cushions (LF-03): 300 x 200 mm housings, or 80 x 60 mm LED strips with led = 1.

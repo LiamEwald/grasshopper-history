@@ -6,11 +6,11 @@
 # gh-input: runoff float 7.5 3 15
 # gh-input: tread float 0.8 0.7 1.0
 # gh-input: c_value float 0.09 0.04 0.15
-# gh-input: c2 float 0.09 0.04 0.15
-# gh-input: c3 float 0.06 0.04 0.15
+# gh-input: c2 float 0.085 0.04 0.15
+# gh-input: c3 float 0.055 0.04 0.15
 # gh-input: first_h float 1.8 0.6 3.0
 # gh-input: rows1 int 21 0 40
-# gh-input: rows2 int 22 0 40
+# gh-input: rows2 int 23 0 40
 # gh-input: gap2 float 2 -8 12
 # gh-input: lift2 float 2.5 1 12
 # gh-input: boxes_n int 106 0 140

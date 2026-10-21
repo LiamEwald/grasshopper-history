@@ -4,7 +4,7 @@
 # gh-input: pitch_l float 105 90 120
 # gh-input: pitch_w float 68 60 90
 # gh-input: runoff float 7.5 3 15
-# gh-input: corner_r float 20 0 60
+# gh-input: corner_r float 17 0 60
 # gh-input: env_a float 130 100 150
 # gh-input: env_b float 115 90 140
 # gh-input: env_p float 2.4 2 4

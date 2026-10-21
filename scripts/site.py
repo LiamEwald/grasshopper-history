@@ -5,7 +5,7 @@
 # gh-input: pitch_w float 68 60 90
 # gh-input: env_a float 130 100 150
 # gh-input: env_b float 115 90 140
-# gh-input: env_p float 2.4 2 4
+# gh-input: env_p float 2.0 2 4
 # gh-input: env_z0 float 12 0 20
 # gh-input: esp_on int 1 0 1
 # gh-input: esp_w float 80 30 120

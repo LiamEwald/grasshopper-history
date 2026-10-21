@@ -5,14 +5,14 @@
 # gh-input: pitch_w float 68 60 90
 # gh-input: runoff float 7.5 3 15
 # gh-input: corner_r float 20 0 60
-# gh-input: bay float 10 6 15
+# gh-input: bay float 9 6 15
 # gh-input: tread float 0.8 0.7 1.0
 # gh-input: c_value float 0.09 0.04 0.15
 # gh-input: c2 float 0.09 0.04 0.15
 # gh-input: c3 float 0.09 0.04 0.15
 # gh-input: first_h float 1.2 0.6 3.0
-# gh-input: rows1 int 28 0 40
-# gh-input: rows2 int 28 0 40
+# gh-input: rows1 int 20 0 40
+# gh-input: rows2 int 0 0 40
 # gh-input: rows3 int 0 0 40
 # gh-input: gap2 float 2 -8 12
 # gh-input: lift2 float 6 1 12

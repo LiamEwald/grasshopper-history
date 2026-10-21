@@ -1,12 +1,12 @@
 # category: massing studies
 # level: massing
 # material: massing
-# gh-input: m_type int 3 0 3
-# gh-input: m_a float 125 80 160
-# gh-input: m_b float 100 80 160
+# gh-input: m_type int 2 0 3
+# gh-input: m_a float 130 80 160
+# gh-input: m_b float 115 80 160
 # gh-input: m_p float 2 2 6
 # gh-input: m_h float 40 20 60
-# gh-input: m_flare float 0 -0.15 0.25
+# gh-input: m_flare float 0.1 -0.15 0.25
 # gh-input: m_open float 0.62 0.4 0.8
 # Rough volumes before any detail, one closed solid per mass.
 #   m_type 0: one ring, plan a superellipse with half-axes m_a, m_b and exponent m_p
